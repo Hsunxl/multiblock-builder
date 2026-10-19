@@ -57,7 +57,7 @@ Minecraft **1.21.1 / NeoForge 21.1.169+ / Java 21**。独立工具模组；客�
 
 ## 服务端图鉴导入
 
-需要管理员权限（命令等级 2）。把图鉴 JAR 放在服务器 `mods`，执行：
+需要管理员权限（命令等级 2）。把图鉴 JAR 放在服务器 `mods`，或放在服务器根目录的 `guide_import/`（推荐给带客户端依赖的图鉴 JAR，避免服务端尝试加载它），执行：
 
 ```mcfunction
 /mbuilder import
@@ -66,7 +66,7 @@ Minecraft **1.21.1 / NeoForge 21.1.169+ / Java 21**。独立工具模组；客�
 
 命令会：
 
-1. 扫描 `mods` 中名称含 `structure`、`guide` 或 `atm` 的 JAR，选择包含最多 `assets/*/structures/*.nbt` 的一个；找不到时再扫描全部 JAR。
+1. 先扫描 `guide_import/`，再扫描 `mods` 中名称含 `structure`、`guide` 或 `atm` 的 JAR，选择包含最多 `assets/*/structures/*.nbt` 的一个；找不到时再扫描全部 JAR。
 2. 从指南 Markdown 的 `<ImportStructure src="...">` 与 `title:` 读取标题。
 3. 生成 `<world>/datapacks/mbuilder_import/`，包含 `pack.mcmeta`、蓝图 JSON 和 `import-report.json`。
 4. 自动启用该数据包并重载；聊天栏报告成功/跳过数量。

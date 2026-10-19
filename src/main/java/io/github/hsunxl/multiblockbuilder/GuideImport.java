@@ -34,9 +34,10 @@ public final class GuideImport {
     /** Imports from the best structure-guide JAR in the server's mods directory and enables the pack. */
     public static Result run(CommandSourceStack source, String include) throws IOException {
         var server = source.getServer();
-        Path mods = FMLPaths.MODSDIR.get();
-        Path jar = findGuideJar(mods);
-        if (jar == null) throw new IOException("mods 中未找到包含 assets/*/structures/*.nbt 的图鉴 JAR");
+        // A client-only guide JAR must not be loaded by a dedicated server; allow a data-only copy here.
+        Path jar = findGuideJar(FMLPaths.GAMEDIR.get().resolve("guide_import"));
+        if (jar == null) jar = findGuideJar(FMLPaths.MODSDIR.get());
+        if (jar == null) throw new IOException("未找到包含 assets/*/structures/*.nbt 的图鉴 JAR；请放入 mods 或 guide_import/");
         Path datapacks = server.getWorldPath(LevelResource.DATAPACK_DIR);
         Result result = importJar(jar,datapacks,"guide_import",include);
 
@@ -103,6 +104,7 @@ public final class GuideImport {
         if (!namespace.matches("[a-z0-9_.-]+")) throw new IllegalArgumentException("非法命名空间: " + namespace);
         if (include == null || include.isBlank()) include = "*";
         if (include.length() > 200) throw new IllegalArgumentException("include 过长");
+        if (Files.size(jar) > MAX_JAR_BYTES) throw new IOException("图鉴 JAR 超过 100 MB");
         byte[] jarBytes = Files.readAllBytes(jar);
         if (jarBytes.length > MAX_JAR_BYTES) throw new IOException("图鉴 JAR 超过 100 MB");
         String jarSha = sha256(jarBytes);
@@ -155,7 +157,7 @@ public final class GuideImport {
                     skipped.add(skipped(name,ex.getMessage() == null ? ex.getClass().getSimpleName() : ex.getMessage()));
                 }
             }
-        } catch (RuntimeException ex) {
+        } catch (IOException | RuntimeException ex) {
             deleteTree(temp);
             throw ex;
         }
