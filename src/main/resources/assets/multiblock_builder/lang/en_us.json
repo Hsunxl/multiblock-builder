@@ -5,9 +5,20 @@
   "multiblock_builder.rotate": "Rotate 90°",
   "multiblock_builder.materials": "Materials",
   "multiblock_builder.tooltip": "Air: catalog / Sneak-air: cancel / Block: anchor, then confirm / Ctrl: details",
+  "multiblock_builder.tooltip.me": "Sneak-right-click an ME Interface to bind it; /mbuilder unbind to clear",
   "multiblock_builder.hold": "Hold a Multiblock Builder first",
   "multiblock_builder.anchor": "Anchor: %s. Right-click a block again to build.",
   "multiblock_builder.built": "Placed %s blocks. Activate the machine using its native tool.",
   "multiblock_builder.missing": "Missing %s × %s",
-  "multiblock_builder.material": "%s × %s"
+  "multiblock_builder.missing_header": "Missing from %s:",
+  "multiblock_builder.material": "%s × %s",
+  "multiblock_builder.interface_bound": "Bound ME Interface: %s. Survival builds will pull materials from this network.",
+  "multiblock_builder.interface_missing": "Bound ME Interface is unavailable: %s",
+  "multiblock_builder.interface_offline": "Bound ME Interface is not connected to a network: %s",
+  "multiblock_builder.interface_cleared": "ME Interface binding cleared",
+  "multiblock_builder.interface_tooltip": "ME Interface: %s",
+  "multiblock_builder.source.me": "ME network",
+  "multiblock_builder.source.inventory": "main inventory",
+  "multiblock_builder.import.done": "Imported %s blueprints, skipped %s; datapack mbuilder_import is enabled. Source: %s",
+  "multiblock_builder.import.failed": "Import failed: %s"
 }

@@ -35,25 +35,31 @@ public final class Placement {
         }
         return new Plan(List.copyOf(missing),costs);
     }
-    private static int count(ServerPlayer p, Item item) {
-        return p.getInventory().items.stream().filter(s->s.is(item) && s.getComponentsPatch().isEmpty()).mapToInt(ItemStack::getCount).sum();
+
+    private static void reportMissing(ServerPlayer p, MaterialSource source, Map<Item,Integer> missing) {
+        p.sendSystemMessage(source.missingHeader());
+        missing.forEach((item,amount) ->
+                p.sendSystemMessage(Component.translatable("multiblock_builder.missing",item.getDescription(),amount)));
     }
-    public static boolean reportMissing(ServerPlayer p, Map<Item,Integer> costs) {
-        boolean enough=true;
-        for (var e:costs.entrySet()) {
-            int missing=e.getValue()-count(p,e.getKey());
-            if (missing>0) { enough=false; p.sendSystemMessage(Component.translatable("multiblock_builder.missing",e.getKey().getDescription(),missing)); }
-        }
-        return enough;
-    }
+
     public static boolean build(ServerPlayer p, ItemStack tool, Blueprint b, BlockPos origin, int turns) {
         var snapshots = new ArrayList<BlockSnapshot>();
         var level = p.serverLevel();
+        MaterialSource source = null;
+        Map<Item,Integer> charged = Map.of();
         try {
             Plan plan = plan(p,b,origin,turns);
-            if (!p.getAbilities().instabuild && !reportMissing(p,plan.costs())) return false;
+            if (!p.getAbilities().instabuild) {
+                source = Materials.resolve(p,tool);
+                if (source == null) return false;
+                var missing = source.missing(plan.costs());
+                if (!missing.isEmpty()) {
+                    reportMissing(p,source,missing);
+                    return false;
+                }
+            }
             // Neighbor updates are deferred until the whole layout exists. Post-place protection
-            // events see the tentative state and can veto it before any inventory is charged.
+            // events see the tentative state and can veto it before any inventory/ME charge.
             for (var cell : plan.missing()) {
                 if (!level.getBlockState(cell.offset()).isAir() || level.getBlockEntity(cell.offset())!=null)
                     throw new IllegalArgumentException("Target changed during placement: " + cell.offset().toShortString());
@@ -71,15 +77,8 @@ public final class Placement {
             for (var cell:plan.missing()) if (!level.getBlockState(cell.offset()).equals(cell.state()))
                 throw new IllegalArgumentException("Layout changed during protection checks");
             if (!p.getAbilities().instabuild) {
-                if (!reportMissing(p,plan.costs())) throw new IllegalArgumentException("Inventory changed during placement");
-                for (var e:plan.costs().entrySet()) {
-                    int remaining=e.getValue();
-                    for (var stack:p.getInventory().items) if (stack.is(e.getKey()) && stack.getComponentsPatch().isEmpty()) {
-                        int take=Math.min(remaining,stack.getCount()); stack.shrink(take); remaining-=take;
-                        if (remaining==0) break;
-                    }
-                }
-                p.getInventory().setChanged();
+                if (!source.extract(plan.costs())) throw new IllegalStateException("Materials changed during build; nothing was charged");
+                charged = plan.costs();
             }
             // Commit point: material charge and layout now agree. Generic mod callbacks during
             // neighbor notifications cannot be made transactional; do not claim otherwise.
@@ -92,6 +91,10 @@ public final class Placement {
             }
             return true;
         } catch (RuntimeException ex) {
+            if (!charged.isEmpty() && source != null) {
+                try { source.refund(charged); }
+                catch (RuntimeException refundFailure) { BuilderMod.LOG.error("Material refund failed",refundFailure); }
+            }
             for (int i=snapshots.size()-1;i>=0;i--) {
                 try {
                     var snapshot=snapshots.get(i);

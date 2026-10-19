@@ -14,6 +14,17 @@ public final class BuilderCommands {
         for(var stack:java.util.List.of(p.getMainHandItem(),p.getOffhandItem())) if(stack.is(BuilderMod.TOOL.get())) return stack;
         throw new SimpleCommandExceptionType(Component.translatable("multiblock_builder.hold")).create();
     }
+    private static void runImport(CommandSourceStack source, String include) {
+        try {
+            var result=GuideImport.run(source,include);
+            source.sendSuccess(()->Component.translatable("multiblock_builder.import.done",
+                    result.converted(),result.skipped(),result.jar().getFileName().toString()),true);
+        } catch (Exception ex) {
+            BuilderMod.LOG.error("Guide import failed",ex);
+            source.sendFailure(Component.translatable("multiblock_builder.import.failed",
+                    ex.getMessage()==null?ex.getClass().getSimpleName():ex.getMessage()));
+        }
+    }
     public static void register(CommandDispatcher<CommandSourceStack> d) {
         d.register(literal("mbuilder")
             .executes(c->{ Network.catalog(c.getSource().getPlayerOrException()); return 1; })
@@ -37,6 +48,14 @@ public final class BuilderCommands {
                 t.putInt("layer",IntegerArgumentType.getInteger(c,"y")); Selection.write(stack,t); Network.preview(p,stack); return 1;
             })))
             .then(literal("clear").executes(c->{var p=c.getSource().getPlayerOrException(); var stack=held(p); Selection.clearOrigin(stack); Network.preview(p,stack); return 1;}))
+            .then(literal("unbind").executes(c->{
+                var p=c.getSource().getPlayerOrException(); var stack=held(p);
+                Selection.clearInterface(stack); p.sendSystemMessage(Component.translatable("multiblock_builder.interface_cleared")); return 1;
+            }))
+            .then(literal("import").requires(s->s.hasPermission(2))
+                .executes(c->{ runImport(c.getSource(),"*"); return 1; })
+                .then(argument("include",StringArgumentType.greedyString())
+                    .executes(c->{ runImport(c.getSource(),StringArgumentType.getString(c,"include")); return 1; })))
             .then(literal("materials").executes(c->{
                 var p=c.getSource().getPlayerOrException(); var t=Selection.read(held(p)); var b=Blueprints.INSTANCE.get(t.getString("blueprint"));
                 if(b==null) return 0;

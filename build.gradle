@@ -3,10 +3,10 @@ plugins {
     id 'net.neoforged.moddev' version '2.0.74'
 }
 group = 'io.github.hsunxl'
-version = '0.1.0'
+version = '0.2.0'
 java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar() }
 neoForge {
-    version = '21.1.169'
+    version = '21.1.259'
     mods { multiblock_builder { sourceSet sourceSets.main } }
     runs {
         client { client() }
@@ -19,6 +19,13 @@ if (providers.gradleProperty('gameTests').isPresent()) {
     sourceSets.main.resources.srcDir 'src/gametest/resources'
 }
 repositories { mavenCentral() }
+sourceSets.test.compileClasspath += sourceSets.main.compileClasspath
+sourceSets.test.runtimeClasspath += sourceSets.main.runtimeClasspath
+dependencies {
+    implementation 'org.appliedenergistics:appliedenergistics2:19.2.18'
+    compileOnly 'org.appliedenergistics:guideme:21.1.19'
+    runtimeOnly 'org.appliedenergistics:guideme:21.1.19'
+}
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
 tasks.withType(Jar).configureEach { from('LICENSE') }
 tasks.register('coreTest', JavaExec) {

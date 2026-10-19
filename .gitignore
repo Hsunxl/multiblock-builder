@@ -1,6 +1,7 @@
 .gradle/
 build/
 run/
+logs/
 local-libs/
 *.log
 __pycache__/

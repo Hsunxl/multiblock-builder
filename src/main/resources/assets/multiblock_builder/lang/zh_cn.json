@@ -5,9 +5,20 @@
   "multiblock_builder.rotate": "旋转 90°",
   "multiblock_builder.materials": "材料清单",
   "multiblock_builder.tooltip": "右键空气：目录；潜行右键空气：取消；右键方块：选点/确认；Ctrl：细节",
+  "multiblock_builder.tooltip.me": "潜行右键 ME 接口：绑定取料网络；/mbuilder unbind 解除",
   "multiblock_builder.hold": "请先手持多方块搭建器",
   "multiblock_builder.anchor": "起点：%s。再次右键方块确认搭建。",
   "multiblock_builder.built": "已放置 %s 个方块；请用原模组工具完成成型。",
   "multiblock_builder.missing": "缺少 %s × %s",
-  "multiblock_builder.material": "%s × %s"
+  "multiblock_builder.missing_header": "%s 材料不足：",
+  "multiblock_builder.material": "%s × %s",
+  "multiblock_builder.interface_bound": "已绑定 ME 接口：%s。生存搭建将从该网络取材料。",
+  "multiblock_builder.interface_missing": "绑定的 ME 接口不可用：%s",
+  "multiblock_builder.interface_offline": "绑定的 ME 接口未连接网络：%s",
+  "multiblock_builder.interface_cleared": "已解除 ME 接口绑定",
+  "multiblock_builder.interface_tooltip": "ME 接口：%s",
+  "multiblock_builder.source.me": "ME 网络",
+  "multiblock_builder.source.inventory": "主背包",
+  "multiblock_builder.import.done": "已导入 %s 个蓝图，跳过 %s 个；数据包 mbuilder_import 已启用。来源：%s",
+  "multiblock_builder.import.failed": "导入失败：%s"
 }

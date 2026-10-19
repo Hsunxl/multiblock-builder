@@ -3,7 +3,7 @@ package io.github.hsunxl.multiblockbuilder;
 import java.util.HashSet;
 
 public final class CoreTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         int cases=0;
         for(int w=1;w<=16;w++) for(int d=1;d<=16;d++) for(int turns=0;turns<4;turns++) {
             var seen=new HashSet<Geometry.Point>();
@@ -18,5 +18,6 @@ public final class CoreTest {
             }
         }
         System.out.println("PASS "+cases+" rotation/bounds/round-trip cases");
+        GuideImportTest.run();
     }
 }
