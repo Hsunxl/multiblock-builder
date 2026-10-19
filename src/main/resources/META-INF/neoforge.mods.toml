@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="multiblock_builder"
+version="0.1.0"
+displayName="Multiblock Builder"
+authors="Hsunxl"
+description='''Multiblock Builder for Minecraft 1.21.1.'''
+[[dependencies.multiblock_builder]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.169,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.multiblock_builder]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

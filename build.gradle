@@ -1,0 +1,30 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.74'
+}
+group = 'io.github.hsunxl'
+version = '0.1.0'
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar() }
+neoForge {
+    version = '21.1.169'
+    mods { multiblock_builder { sourceSet sourceSets.main } }
+    runs {
+        client { client() }
+        server { server() }
+        gameTestServer { type = 'gameTestServer'; systemProperty 'neoforge.enabledGameTestNamespaces', 'multiblock_builder' }
+    }
+}
+if (providers.gradleProperty('gameTests').isPresent()) {
+    sourceSets.main.java.srcDir 'src/gametest/java'
+    sourceSets.main.resources.srcDir 'src/gametest/resources'
+}
+repositories { mavenCentral() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.withType(Jar).configureEach { from('LICENSE') }
+tasks.register('coreTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'io.github.hsunxl.multiblockbuilder.CoreTest'
+    enableAssertions = true
+}
+tasks.named('check') { dependsOn 'coreTest' }
