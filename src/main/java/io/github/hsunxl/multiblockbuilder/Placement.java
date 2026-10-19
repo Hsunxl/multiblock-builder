@@ -84,11 +84,12 @@ public final class Placement {
             // neighbor notifications cannot be made transactional; do not claim otherwise.
             snapshots.clear();
             Selection.clearOrigin(tool);
-            p.sendSystemMessage(Component.translatable("multiblock_builder.built",plan.missing().size()));
             for (var cell:plan.missing()) {
                 try { level.updateNeighborsAt(cell.offset(),cell.state().getBlock()); }
                 catch (RuntimeException ex) { BuilderMod.LOG.error("Post-commit neighbor callback failed at {}",cell.offset(),ex); }
             }
+            boolean formed = Formation.activate(level,b,origin,turns,p);
+            p.sendSystemMessage(Component.translatable(formed?"multiblock_builder.built_formed":"multiblock_builder.built",plan.missing().size()));
             return true;
         } catch (RuntimeException ex) {
             if (!charged.isEmpty() && source != null) {

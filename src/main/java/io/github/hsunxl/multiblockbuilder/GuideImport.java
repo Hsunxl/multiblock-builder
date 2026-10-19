@@ -141,6 +141,8 @@ public final class GuideImport {
                     CompoundTag nbt = parseNbt(nbtBytes);
                     String title = titles.getOrDefault(name,slug.replace('_',' '));
                     Converted blueprint = convert(nbt,title);
+                    String formation = formationFor(slug);
+                    if (formation != null) blueprint.json().addProperty("formation",formation);
                     Path target = temp.resolve("data").resolve(namespace).resolve("multiblock_blueprints")
                             .resolve(slug + ".json");
                     Files.createDirectories(target.getParent());
@@ -149,6 +151,7 @@ public final class GuideImport {
                     row.addProperty("id",namespace + ":" + slug);
                     row.addProperty("cells",blueprint.cells());
                     row.addProperty("stripped_block_entities",blueprint.stripped());
+                    if (formation != null) row.addProperty("formation",formation);
                     row.addProperty("source",name);
                     row.addProperty("sha256",sha256(nbtBytes));
                     templates.add(row);
@@ -211,6 +214,10 @@ public final class GuideImport {
         }
         deleteTree(backup);
         return new Result(jar,target,converted,skipped.size(),target.resolve("import-report.json"));
+    }
+
+    private static String formationFor(String slug) {
+        return slug.equals("ae_family/ae_plus_ultimate") ? Formation.ULTIMATE_SUPER_ASSEMBLER_MATRIX : null;
     }
 
     private static JsonObject skipped(String source, String reason) {

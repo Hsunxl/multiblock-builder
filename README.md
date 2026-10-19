@@ -4,13 +4,14 @@ Minecraft **1.21.1 / NeoForge 21.1.169+ / Java 21**。独立工具模组；客�
 
 从 ExtendedAE Plus 的终极矩阵搭建器借鉴“选点、锁定预览、确认搭建”交互，并适配其 ME 接口取料流程；本模组是通用、数据驱动的独立实现，不复制原模组源码或材质。
 
-## 当前功能（0.2.0）
+## 当前功能（0.2.1）
 
 - 搜索与分页蓝图目录，90° 旋转，世界线框预览，按层查看。
 - 创造模式免费搭建；经过审核的生存蓝图从玩家主背包或绑定的 ME 网络扣取普通材料。
 - 潜行右键 ME 接口即可绑定取料网络；未绑定时回退主背包。绑定信息保存在工具上，可跨维度使用已加载的接口。
 - 先在 ME 网络中模拟全部材料，再逐项抽取；任一项不足或变化会归还已抽取材料并回滚方块，不留下半成品。
-- 服务端命令 `/mbuilder import` 读取服务器 `mods` 中的图鉴 JAR，直接生成世界数据包并重载，不需要 Python。
+- 服务端命令 `/mbuilder import` 读取服务器 `guide_import/` 或 `mods` 中的图鉴 JAR，直接生成世界数据包并重载，不需要 Python。
+- 对带 `formation` 适配器的蓝图，放置和邻居更新完成后会调用原模组自己的成型 API；目前内置 **ExtendedAE Plus 终极超级装配矩阵**，导入的 `ae_family/ae_plus_ultimate` 会自动带上它。
 - 已有完全相同的方块跳过，不重复收费。任何不同的非空气方块都视为障碍，绝不主动清空地形。
 - 服务端读取数据包并验证权限、边界、已加载区块、材料；客户端不提交任意方块/NBT。
 - 整体检查材料后放置；触发 NeoForge 放置保护事件。提交前失败恢复目标位置快照，不扣材料。
@@ -29,7 +30,17 @@ Minecraft **1.21.1 / NeoForge 21.1.169+ / Java 21**。独立工具模组；客�
 2. 右键方块，将被点击面外侧一格设为蓝图最小角起点。
 3. 预览锁定后再次右键方块确认。潜行右键方块重新选点；潜行右键空气取消。
 4. 按住 **Ctrl** 显示逐格线框：青色待放置、绿色已匹配、红色冲突。
-5. 用原模组的锤子、法杖等完成成型；本工具不绕过机器条件、不自动启动机器。
+5. 普通机器用原模组的锤子、法杖等完成成型；带 `formation` 适配器的蓝图会尝试自动成型。自动成型不等于启动机器，也不填材料/能量。
+
+### 自动成型
+
+“不能主动成型”原来的意思是：本工具不会猜测每个模组的装配 API，也不会自动启动机器。它本来就会一次放置全部方块，并在最后对每个位置触发邻居更新；很多在方块更新时自行检测多方块的机器已经会成型。
+
+对明确知道 API 的结构，现在增加了数据驱动的 `formation` 字段。当前只接入：
+
+- `extendedae_plus:ultimate_super_assembler_matrix`：在全部方块落位、邻居更新完成后调用 ExtendedAE Plus 的 `SuperAssemblerMatrixCalculator.formUltimate`。
+
+`/mbuilder import` 会给 `ae_family/ae_plus_ultimate` 自动写入这个字段。旋转过的蓝图不会自动成型（恢复 0° 后再搭），成型失败时方块和材料保留，聊天栏会提示用原工具完成。其他机器仍需各自的控制器/工具/能量条件，不能用通用代码安全地猜测。
 
 ### ME 取料绑定
 
@@ -84,6 +95,7 @@ Minecraft **1.21.1 / NeoForge 21.1.169+ / Java 21**。独立工具模组；客�
   "title": "Two blocks",
   "size": [2, 1, 1],
   "survival": true,
+  "formation": "extendedae_plus:ultimate_super_assembler_matrix",
   "blocks": [
     {"pos": [0, 0, 0], "block": "minecraft:stone"},
     {"pos": [1, 0, 0], "block": "minecraft:oak_log", "properties": {"axis": "y"}}
@@ -91,7 +103,7 @@ Minecraft **1.21.1 / NeoForge 21.1.169+ / Java 21**。独立工具模组；客�
 }
 ```
 
-尺寸各轴 1..64，最多 4096 格。坐标从 0 开始。省略的位置是“不处理”，不是“必须清空”；JSON 不能含空气或 `nbt`。`survival` 缺省为 false。生存材料取对应 BlockItem，一格一个普通无额外组件的物品；双层台阶、门、床、双格植物、含水状态等拒绝推测成本。
+尺寸各轴 1..64，最多 4096 格。坐标从 0 开始。省略的位置是“不处理”，不是“必须清空”；JSON 不能含空气或 `nbt`。`survival` 缺省为 false。`formation` 可省略；只有安装对应模组并确认结构完全匹配时才应填写。生存材料取对应 BlockItem，一格一个普通无额外组件的物品；双层台阶、门、床、双格植物、含水状态等拒绝推测成本。
 
 ## 构建和测试
 
@@ -109,7 +121,8 @@ python -m unittest discover -s tools -p 'test_*.py'
 ## 边界
 
 - 不会自动扫描图鉴 JAR；必须执行 `/mbuilder import` 或使用数据包。
-- 不会自动合成缺失材料，不会从 ME 网络读取/启动机器，也不会代替原模组完成多方块成型。
+- 只对带已知 `formation` 适配器的蓝图调用原模组成型 API；不会猜测其他模组的成型/启动逻辑。自动成型失败不会回滚已放置方块。
+- 不会自动合成缺失材料，不会从 ME 网络读取/启动机器，也不会代替控制器完成配方、能量或物品配置。
 - 当前没有蓝图编辑器或撤销已提交建筑。
 - 线框预览不是方块材质的半透明投影。存档中的材料和保护逻辑以服务端为准。
 - 原模组特殊放置初始化、邻居回调、多方块成型和领地插件需逐模组实测。快照可恢复本工具改动的目标方块，**不能回滚其他模组在回调中修改的任意外部状态**。不宣称通用 ACID 事务。
@@ -118,6 +131,6 @@ python -m unittest discover -s tools -p 'test_*.py'
 
 ## English summary
 
-Data-driven, server-authoritative multiblock construction tool for NeoForge 1.21.1. It hard-depends on AE2: bind an ME Interface to pull survival materials transactionally, or fall back to the player's main inventory. `/mbuilder import` converts an installed structure-guide JAR into a world datapack and reloads it. Search blueprints, lock an anchor, rotate and inspect wireframes, then confirm. Block-entity data and entities are never imported. Native formation tools remain necessary. Both sides need the mod.
+Data-driven, server-authoritative multiblock construction tool for NeoForge 1.21.1. It hard-depends on AE2: bind an ME Interface to pull survival materials transactionally, or fall back to the player's main inventory. `/mbuilder import` converts an installed structure-guide JAR into a world datapack and reloads it. Search blueprints, lock an anchor, rotate and inspect wireframes, then confirm. Block-entity data and entities are never imported. A data-driven `formation` adapter can call a known mod API after placement (currently ExtendedAE Plus's ultimate matrix); machines without an adapter still need their native formation tool. Both sides need the mod.
 
 MIT for this original implementation. See `NOTICE.md` for conceptual references and third-party asset boundaries.

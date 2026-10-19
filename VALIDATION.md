@@ -7,6 +7,8 @@
 - Python standard-library importer: **6** unit tests retained for offline workflows.
 - Java `GuideImport` tests: synthetic JAR conversion, Markdown title resolution, broken-entry skip/report, glob filtering, path normalization, no-clobber on failed/empty import.
 - Real installed `atm-structure-library-1.0.0.jar`: **154 / 154** static NBT templates converted, **0** skipped; the known `ae_family/ae_plus_ultimate` blueprint has **1,280** cells and a non-empty title.
+- Ultimate matrix layout compared with ExtendedAE Plus 1.6.3's `data/extendedae_plus/structures/ultimate_super_assembler_matrix.json`: **1,280 non-air positions and block IDs, zero differences**.
+- The installed ExtendedAE Plus 1.6.3 exposes `public static boolean formUltimate(ServerLevel, BlockPos)`; the reflection adapter targets that exact signature.
 - Actual isolated NeoForge **GameTest server** with AE2 and GuideME loaded: **6 / 6 required tests passed**:
   1. Survival builds consume exactly 2 stone items; repeating the same build charges nothing.
   2. Missing materials place no blocks and consume nothing.
@@ -22,6 +24,7 @@
 - No ATM10 production world was opened or changed.
 - No actual client GUI/GPU or multiplayer latency acceptance test.
 - ME transaction logic is covered with a fake `MEStorage`; an in-world AE2 grid/interface binding was not automated in GameTest.
+- The `formUltimate` adapter was not executed in GameTest because the development server does not load ExtendedAE Plus. It needs one in-pack test with the actual ultimate matrix.
 - The `/mbuilder import` command's in-place pack enabling/reload was not run against a production world; the converter, pack layout and ID were validated separately.
 - No universal machine formation guarantee for the 154 imported templates; dynamic guide scenes are outside this importer.
 - No full compatibility certification for third-party protection mods or callback-heavy blocks. Test cancellation uses a real NeoForge event listener, not every protection plugin.

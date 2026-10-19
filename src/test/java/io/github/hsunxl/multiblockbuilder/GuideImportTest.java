@@ -61,6 +61,8 @@ public final class GuideImportTest {
                 var ultimateJson = JsonParser.parseString(Files.readString(ultimate)).getAsJsonObject();
                 assert !ultimateJson.get("title").getAsString().isBlank() : "real template title";
                 assert ultimateJson.getAsJsonArray("blocks").size() > 100 : "real template cells";
+                assert ultimateJson.get("formation").getAsString().equals(Formation.ULTIMATE_SUPER_ASSEMBLER_MATRIX)
+                        : "ultimate template gets its formation adapter";
                 System.out.println("PASS real guide import: " + real.converted() + " templates, "
                         + ultimateJson.getAsJsonArray("blocks").size() + " cells in ultimate");
 

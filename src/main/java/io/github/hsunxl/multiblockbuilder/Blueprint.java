@@ -12,7 +12,7 @@ import net.minecraft.world.item.BlockItem;
 
 /** Server-owned, data-only blueprint. No block entity NBT, commands or entities. */
 public record Blueprint(ResourceLocation id, String title, int width, int height, int depth,
-                        boolean survival, List<Cell> cells, String json) {
+                        boolean survival, String formation, List<Cell> cells, String json) {
     public static final int MAX_CELLS = 4096;
     public record Cell(BlockPos offset, BlockState state) {}
     public Blueprint { cells = List.copyOf(cells); }
@@ -31,6 +31,9 @@ public record Blueprint(ResourceLocation id, String title, int width, int height
         var blocks = root.getAsJsonArray("blocks");
         if (blocks == null || blocks.isEmpty() || blocks.size() > MAX_CELLS) throw new IllegalArgumentException("blocks range: 1..4096");
         boolean survival = root.has("survival") && root.get("survival").getAsBoolean();
+        String formation = root.has("formation") ? root.get("formation").getAsString() : "";
+        if (!formation.isEmpty() && (formation.length() > 120 || !formation.matches("[a-z0-9_.-]+:[a-z0-9_./-]+")))
+            throw new IllegalArgumentException("Invalid formation adapter id");
         var cells = new ArrayList<Cell>();
         var seen = new HashSet<BlockPos>();
         for (var element : blocks) {
@@ -58,7 +61,7 @@ public record Blueprint(ResourceLocation id, String title, int width, int height
         if (title.length() > 160) throw new IllegalArgumentException("Title too long");
         String json = root.toString();
         if (json.getBytes(java.nio.charset.StandardCharsets.UTF_8).length > 600_000) throw new IllegalArgumentException("Blueprint too large");
-        return new Blueprint(id,title,w,h,d,survival,cells,json);
+        return new Blueprint(id,title,w,h,d,survival,formation,cells,json);
     }
     private static <T extends Comparable<T>> BlockState with(BlockState s, Property<T> p, String value) {
         return s.setValue(p,p.getValue(value).orElseThrow(() -> new IllegalArgumentException("Invalid " + p.getName() + "=" + value)));
