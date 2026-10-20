@@ -11,7 +11,6 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 
@@ -34,8 +33,8 @@ public final class Network {
         @Override public Type<PreviewRequest> type() { return TYPE; }
     }
 
-    /** Colours plus one byte per block position; enough for an isometric thumbnail. */
-    public record Scene(String id,int width,int height,int depth,int[] palette,byte[] cells) implements CustomPacketPayload {
+    /** Block ids plus one byte per exposed block; the client textures them with their own sprite. */
+    public record Scene(String id,int width,int height,int depth,String[] palette,byte[] cells) implements CustomPacketPayload {
         public static final Type<Scene> TYPE=new Type<>(ResourceLocation.fromNamespaceAndPath(BuilderMod.ID,"scene"));
         public static final StreamCodec<RegistryFriendlyByteBuf,Scene> CODEC=StreamCodec.of(
             (buf,msg)->{
@@ -44,14 +43,14 @@ public final class Network {
                 buf.writeVarInt(msg.height);
                 buf.writeVarInt(msg.depth);
                 buf.writeVarInt(msg.palette.length);
-                for(int color:msg.palette) buf.writeInt(color);
+                for(String block:msg.palette) buf.writeUtf(block,128);
                 buf.writeByteArray(msg.cells);
             },
             buf->{
                 String id=buf.readUtf(256);
                 int width=buf.readVarInt(),height=buf.readVarInt(),depth=buf.readVarInt();
-                int[] palette=new int[buf.readVarInt()];
-                for(int i=0;i<palette.length;i++) palette[i]=buf.readInt();
+                String[] palette=new String[buf.readVarInt()];
+                for(int i=0;i<palette.length;i++) palette[i]=buf.readUtf(128);
                 return new Scene(id,width,height,depth,palette,buf.readByteArray());
             });
         @Override public Type<Scene> type() { return TYPE; }
@@ -97,9 +96,8 @@ public final class Network {
             var o=cell.offset();
             occupied.set(index(o.getX(),o.getY(),o.getZ(),w,d));
         }
-        var palette=new ArrayList<Integer>();
-        var paletteIndex=new HashMap<Integer,Integer>();
-        var colorCache=new HashMap<Block,Integer>();
+        var palette=new ArrayList<String>();
+        var paletteIndex=new HashMap<ResourceLocation,Integer>();
         var out=new ByteArrayOutputStream(b.cells().size()*4);
         for(var cell:b.cells()) {
             var o=cell.offset(); int x=o.getX(),y=o.getY(),z=o.getZ();
@@ -108,30 +106,20 @@ public final class Network {
             if(!occupied.get(index(x+1,y,z,w,d))) faces|=2;
             if(!occupied.get(index(x,y,z+1,w,d))) faces|=4;
             if(faces==0) continue;
-            int color=colorCache.computeIfAbsent(cell.state().getBlock(),Network::blockColor);
-            Integer slot=paletteIndex.get(color);
+            var blockId=BuiltInRegistries.BLOCK.getKey(cell.state().getBlock());
+            Integer slot=paletteIndex.get(blockId);
             if(slot==null) {
                 if(palette.size()>=256) slot=0;
-                else { slot=palette.size(); palette.add(color); paletteIndex.put(color,slot); }
+                else { slot=palette.size(); palette.add(blockId.toString()); paletteIndex.put(blockId,slot); }
             }
             out.write(x); out.write(y); out.write(z); out.write(slot);
         }
-        if(palette.isEmpty()) palette.add(0x9AA7B2);
-        var scene=new Scene(b.id().toString(),w,h,d,palette.stream().mapToInt(Integer::intValue).toArray(),out.toByteArray());
+        if(palette.isEmpty()) palette.add("minecraft:stone");
+        var scene=new Scene(b.id().toString(),w,h,d,palette.toArray(String[]::new),out.toByteArray());
         PacketDistributor.sendToPlayer(p,scene);
     }
     private static int index(int x,int y,int z,int width,int depth) {
         return ((y+1)*(depth+2)+(z+1))*(width+2)+(x+1);
-    }
-    private static int blockColor(Block block) {
-        int base=block.defaultMapColor().col;
-        if(base==0) base=0x9AA7B2;
-        var key=BuiltInRegistries.BLOCK.getKey(block);
-        int jitter=(Math.floorMod(key==null?0:key.hashCode(),9)-4)*3;
-        int r=Math.max(8,Math.min(247,(base>>16&255)+jitter));
-        int g=Math.max(8,Math.min(247,(base>>8&255)+jitter));
-        int bl=Math.max(8,Math.min(247,(base&255)+jitter));
-        return r<<16|g<<8|bl;
     }
     private static void send(ServerPlayer p,JsonObject root) { PacketDistributor.sendToPlayer(p,new Data(root.toString())); }
 }

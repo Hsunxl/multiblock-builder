@@ -2,26 +2,50 @@ package io.github.hsunxl.multiblockbuilder.client;
 
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.texture.TextureAtlas;
+import net.minecraft.client.renderer.texture.TextureAtlasSprite;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.neoforged.neoforge.client.model.data.ModelData;
 import org.joml.Matrix4f;
 
 /**
  * A tiny CPU isometric renderer for blueprint voxels. The server sends the exposed
- * shell as palette indices, so a 5,832-block matrix still costs only a few thousand quads.
+ * shell as palette indices, the client textures each cube with that block's own
+ * particle sprite, so the thumbnail looks like the real structure.
  */
 public final class VoxelPreview {
     private static final float COS30 = 0.8660254F;
+    private static final int FULL_BRIGHT = 0xF000F0;
+
+    private record Skin(TextureAtlasSprite sprite, int tint) {}
+    private static final Map<String,Skin> SKINS = new HashMap<>();
+    private static TextureAtlasSprite fallbackSprite;
 
     private final int width, height, depth;
-    private final int[] colors;
+    private final int[] slots, tints;
+    private final Skin[] skins;
     private final byte[] xs, ys, zs, faces;
     private final float uMin, uMax, vMin, vMax;
 
-    public VoxelPreview(int width, int height, int depth, int[] palette, byte[] data) {
+    public VoxelPreview(int width, int height, int depth, String[] palette, byte[] data) {
         this.width = width;
         this.height = height;
         this.depth = depth;
+        skins = new Skin[palette.length];
+        tints = new int[palette.length];
+        for (int i = 0; i < palette.length; i++) {
+            var skin = SKINS.computeIfAbsent(palette[i], VoxelPreview::resolve);
+            if (SKINS.size() > 512) SKINS.clear();
+            skins[i] = skin;
+            tints[i] = skin.tint();
+        }
+
         int total = data.length / 4;
         var occupied = new java.util.BitSet((width + 2) * (height + 2) * (depth + 2));
         for (int i = 0; i < total; i++) {
@@ -44,8 +68,7 @@ public final class VoxelPreview {
             by[count] = (byte) y;
             bz[count] = (byte) z;
             bf[count] = (byte) face;
-            int slot = data[i * 4 + 3] & 0xFF;
-            bc[count] = slot < palette.length ? palette[slot] : 0x9AA7B2;
+            bc[count] = data[i * 4 + 3] & 0xFF;
             count++;
         }
         var order = new Integer[count];
@@ -57,14 +80,14 @@ public final class VoxelPreview {
         ys = new byte[count];
         zs = new byte[count];
         faces = new byte[count];
-        colors = new int[count];
+        slots = new int[count];
         for (int i = 0; i < count; i++) {
             int src = order[i];
             xs[i] = bx[src];
             ys[i] = by[src];
             zs[i] = bz[src];
             faces[i] = bf[src];
-            colors[i] = bc[src];
+            slots[i] = bc[src];
         }
         float minU = Float.MAX_VALUE, maxU = -Float.MAX_VALUE, minV = Float.MAX_VALUE, maxV = -Float.MAX_VALUE;
         for (int i = 0; i < count; i++) {
@@ -86,11 +109,11 @@ public final class VoxelPreview {
         return ((y + 1) * (depth + 2) + (z + 1)) * (width + 2) + (x + 1);
     }
 
-    public int cubes() { return colors.length; }
+    public int cubes() { return slots.length; }
 
     /** Draws the structure centred inside the given rectangle, using the current GUI pose. */
     public void render(GuiGraphics graphics, int left, int top, int areaWidth, int areaHeight) {
-        if (colors.length == 0) return;
+        if (slots.length == 0) return;
         float spanU = Math.max(0.001F, uMax - uMin);
         float spanV = Math.max(0.001F, vMax - vMin);
         float scale = Math.min((areaWidth - 14F) / spanU, (areaHeight - 14F) / spanV);
@@ -98,36 +121,68 @@ public final class VoxelPreview {
         float offsetY = top + areaHeight / 2F - (vMin + vMax) / 2F * scale;
 
         Matrix4f matrix = graphics.pose().last().pose();
-        VertexConsumer buffer = graphics.bufferSource().getBuffer(RenderType.gui());
-        for (int i = 0; i < colors.length; i++) {
+        VertexConsumer buffer = graphics.bufferSource().getBuffer(RenderType.text(TextureAtlas.LOCATION_BLOCKS));
+        for (int i = 0; i < slots.length; i++) {
+            int slot = slots[i];
+            Skin skin = skins[slot];
+            if (skin == null) continue;
+            var sprite = skin.sprite();
+            float u0 = sprite.getU0(), u1 = sprite.getU1(), v0 = sprite.getV0(), v1 = sprite.getV1();
             int x = xs[i] & 0xFF, y = ys[i] & 0xFF, z = zs[i] & 0xFF;
             int face = faces[i] & 0xFF;
-            int color = colors[i];
+            int tint = tints[slot];
             if ((face & 1) != 0) {
-                quad(buffer, matrix,
+                quad(buffer, matrix, shade(tint, 1.0F), u0, v0, u1, v1,
                         sx(x, z, scale, offsetX), sy(x, y + 1, z, scale, offsetY),
                         sx(x, z + 1, scale, offsetX), sy(x, y + 1, z + 1, scale, offsetY),
                         sx(x + 1, z + 1, scale, offsetX), sy(x + 1, y + 1, z + 1, scale, offsetY),
-                        sx(x + 1, z, scale, offsetX), sy(x + 1, y + 1, z, scale, offsetY),
-                        shade(color, 1.0F));
+                        sx(x + 1, z, scale, offsetX), sy(x + 1, y + 1, z, scale, offsetY));
             }
             if ((face & 2) != 0) {
-                quad(buffer, matrix,
+                quad(buffer, matrix, shade(tint, 0.80F), u0, v1, u1, v0,
                         sx(x + 1, z, scale, offsetX), sy(x + 1, y, z, scale, offsetY),
                         sx(x + 1, z, scale, offsetX), sy(x + 1, y + 1, z, scale, offsetY),
                         sx(x + 1, z + 1, scale, offsetX), sy(x + 1, y + 1, z + 1, scale, offsetY),
-                        sx(x + 1, z + 1, scale, offsetX), sy(x + 1, y, z + 1, scale, offsetY),
-                        shade(color, 0.72F));
+                        sx(x + 1, z + 1, scale, offsetX), sy(x + 1, y, z + 1, scale, offsetY));
             }
             if ((face & 4) != 0) {
-                quad(buffer, matrix,
+                quad(buffer, matrix, shade(tint, 0.64F), u0, v1, u1, v0,
                         sx(x, z + 1, scale, offsetX), sy(x, y, z + 1, scale, offsetY),
                         sx(x + 1, z + 1, scale, offsetX), sy(x + 1, y, z + 1, scale, offsetY),
                         sx(x + 1, z + 1, scale, offsetX), sy(x + 1, y + 1, z + 1, scale, offsetY),
-                        sx(x, z + 1, scale, offsetX), sy(x, y + 1, z + 1, scale, offsetY),
-                        shade(color, 0.55F));
+                        sx(x, z + 1, scale, offsetX), sy(x, y + 1, z + 1, scale, offsetY));
             }
         }
+        graphics.flush();
+    }
+
+    private static Skin resolve(String id) {
+        var mc = Minecraft.getInstance();
+        var key = ResourceLocation.tryParse(id);
+        if (key != null && BuiltInRegistries.BLOCK.containsKey(key)) {
+            var block = BuiltInRegistries.BLOCK.get(key);
+            try {
+                var model = mc.getBlockRenderer().getBlockModel(block.defaultBlockState());
+                var sprite = model.getParticleIcon(ModelData.EMPTY);
+                if (sprite != null && !sprite.contents().name().getPath().equals("missingno")) {
+                    return new Skin(sprite, 0xFFFFFF);
+                }
+            } catch (RuntimeException ignored) {
+                // fall through to the tinted fallback
+            }
+            int color = block.defaultMapColor().col;
+            if (color == 0) color = 0x9AA7B2;
+            return new Skin(fallback(), color);
+        }
+        return new Skin(fallback(), 0x9AA7B2);
+    }
+
+    private static synchronized TextureAtlasSprite fallback() {
+        if (fallbackSprite == null) {
+            fallbackSprite = Minecraft.getInstance().getTextureAtlas(TextureAtlas.LOCATION_BLOCKS)
+                    .apply(ResourceLocation.withDefaultNamespace("block/quartz_block_side"));
+        }
+        return fallbackSprite;
     }
 
     private static float sx(float px, float pz, float scale, float offset) {
@@ -138,14 +193,20 @@ public final class VoxelPreview {
         return ((px + pz) * 0.5F - py) * scale + offset;
     }
 
-    private static void quad(VertexConsumer buffer, Matrix4f matrix,
-                             float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4,
-                             int rgb) {
+    /** Vertices must be screen-clockwise to survive the GUI back-face culling. */
+    private static void quad(VertexConsumer buffer, Matrix4f matrix, int rgb,
+                             float u0, float v0, float u1, float v1,
+                             float x1, float y1, float x2, float y2,
+                             float x3, float y3, float x4, float y4) {
+        vertex(buffer, matrix, x1, y1, rgb, u0, v0);
+        vertex(buffer, matrix, x2, y2, rgb, u0, v1);
+        vertex(buffer, matrix, x3, y3, rgb, u1, v1);
+        vertex(buffer, matrix, x4, y4, rgb, u1, v0);
+    }
+
+    private static void vertex(VertexConsumer buffer, Matrix4f matrix, float x, float y, int rgb, float u, float v) {
         int r = rgb >> 16 & 0xFF, g = rgb >> 8 & 0xFF, b = rgb & 0xFF;
-        buffer.addVertex(matrix, x1, y1, 0).setColor(r, g, b, 255);
-        buffer.addVertex(matrix, x2, y2, 0).setColor(r, g, b, 255);
-        buffer.addVertex(matrix, x3, y3, 0).setColor(r, g, b, 255);
-        buffer.addVertex(matrix, x4, y4, 0).setColor(r, g, b, 255);
+        buffer.addVertex(matrix, x, y, 0).setColor(r, g, b, 255).setUv(u, v).setLight(FULL_BRIGHT);
     }
 
     private static int shade(int rgb, float factor) {
