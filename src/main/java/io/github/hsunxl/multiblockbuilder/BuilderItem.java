@@ -51,7 +51,13 @@ public final class BuilderItem extends Item {
         tooltip.add(Component.translatable("multiblock_builder.tooltip.me"));
         var tag=Selection.read(stack);
         String id=tag.getString("blueprint");
-        if(!id.isEmpty()) tooltip.add(Component.literal(id));
+        if(!id.isEmpty()) {
+            String title=tag.getString("title");
+            tooltip.add(title.isEmpty()
+                    ? Component.translatable("multiblock_builder.selected.unknown")
+                    : Component.translatable("multiblock_builder.selected",title,
+                            tag.getInt("width"),tag.getInt("height"),tag.getInt("depth"),tag.getInt("cells")));
+        }
         var bound=Selection.boundInterface(tag);
         if(bound!=null) tooltip.add(Component.translatable("multiblock_builder.interface_tooltip",bound.pos().toShortString()));
     }

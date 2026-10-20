@@ -3,7 +3,7 @@ loaderVersion="[4,)"
 license="MIT"
 [[mods]]
 modId="multiblock_builder"
-version="0.3.1"
+version="0.3.2"
 displayName="Multiblock Builder"
 authors="Hsunxl"
 description='''Multiblock Builder for Minecraft 1.21.1.'''

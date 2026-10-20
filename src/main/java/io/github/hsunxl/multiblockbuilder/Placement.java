@@ -14,22 +14,32 @@ import net.neoforged.neoforge.event.EventHooks;
 public final class Placement {
     private Placement() {}
     public record Plan(List<Blueprint.Cell> missing, Map<Item,Integer> costs) {}
+    /** Carries a translatable message so the client sees Chinese instead of a raw English string. */
+    public static final class BuildError extends IllegalArgumentException {
+        private final Component text;
+        public BuildError(Component text) { super(text.getString()); this.text=text; }
+        public Component text() { return text; }
+    }
     public static Plan plan(ServerPlayer p, Blueprint b, BlockPos origin, int turns) {
         var level = p.serverLevel();
-        if (p.isSpectator() || !p.mayBuild()) throw new IllegalArgumentException("Building is not allowed in this game mode");
-        if (p.blockPosition().distSqr(origin) > 32*32) throw new IllegalArgumentException("Anchor must be within 32 blocks");
-        if (!p.getAbilities().instabuild && !b.survival()) throw new IllegalArgumentException("This blueprint is creative-only; its material mapping has not been approved");
+        if (p.isSpectator() || !p.mayBuild()) throw new BuildError(Component.translatable("multiblock_builder.error.gamemode"));
+        if (p.blockPosition().distSqr(origin) > 32*32) throw new BuildError(Component.translatable("multiblock_builder.error.anchor"));
+        if (!p.getAbilities().instabuild && !b.survival()) throw new BuildError(
+                Component.translatable("multiblock_builder.error.creative_only")
+                        .append("\n").append(Component.translatable("multiblock_builder.error.creative_only.hint")
+                                .withStyle(net.minecraft.ChatFormatting.GRAY)));
         var missing = new ArrayList<Blueprint.Cell>();
         var costs = new LinkedHashMap<Item,Integer>();
         for (var cell : b.rotated(turns)) {
             var pos = origin.offset(cell.offset());
             if (level.isOutsideBuildHeight(pos) || !level.getWorldBorder().isWithinBounds(pos) || !level.hasChunkAt(pos))
-                throw new IllegalArgumentException("Unloaded or out-of-bounds target: " + pos.toShortString());
+                throw new BuildError(Component.translatable("multiblock_builder.error.bounds",pos.toShortString()));
             var current = level.getBlockState(pos);
             if (current.equals(cell.state())) continue;
-            if (!current.isAir() || level.getBlockEntity(pos)!=null) throw new IllegalArgumentException("Blocked: " + pos.toShortString());
+            if (!current.isAir() || level.getBlockEntity(pos)!=null)
+                throw new BuildError(Component.translatable("multiblock_builder.error.blocked",pos.toShortString()));
             if (!level.mayInteract(p,pos) || !p.mayUseItemAt(pos,Direction.UP,p.getMainHandItem()))
-                throw new IllegalArgumentException("Protected: " + pos.toShortString());
+                throw new BuildError(Component.translatable("multiblock_builder.error.protected",pos.toShortString()));
             missing.add(new Blueprint.Cell(pos,cell.state()));
             costs.merge(cell.state().getBlock().asItem(),1,Integer::sum);
         }
@@ -104,7 +114,8 @@ public final class Placement {
                         BuilderMod.LOG.error("Rollback incomplete at {}",snapshot.getPos());
                 } catch(RuntimeException failure) { BuilderMod.LOG.error("Rollback callback failed",failure); }
             }
-            p.sendSystemMessage(Component.literal(ex.getMessage()==null?ex.getClass().getSimpleName():ex.getMessage()));
+            p.sendSystemMessage(ex instanceof BuildError be ? be.text()
+                    : Component.literal(ex.getMessage()==null?ex.getClass().getSimpleName():ex.getMessage()));
             BuilderMod.LOG.debug("Build aborted",ex);
             return false;
         }

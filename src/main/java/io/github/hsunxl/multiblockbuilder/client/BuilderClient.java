@@ -22,8 +22,11 @@ public final class BuilderClient {
     private static Blueprint preview;
     private static java.util.List<java.util.List<Blueprint.Cell>> rotations=java.util.List.of();
     private static boolean captureOnStartDone;
+    private static final java.util.Map<String,VoxelPreview> thumbnails=new java.util.HashMap<>();
+    private static final java.util.Map<String,Long> thumbnailRequests=new java.util.HashMap<>();
     public BuilderClient(IEventBus bus) {
         Network.receiver=BuilderClient::receive;
+        Network.sceneReceiver=BuilderClient::receiveScene;
         NeoForge.EVENT_BUS.addListener(BuilderClient::render);
         NeoForge.EVENT_BUS.addListener(BuilderClient::clientTick);
         NeoForge.EVENT_BUS.addListener(BuilderClient::clientCommands);
@@ -55,6 +58,28 @@ public final class BuilderClient {
                 rotations=preview==null?java.util.List.of():java.util.stream.IntStream.range(0,4).mapToObj(preview::rotated).toList();
             }
         } catch(RuntimeException ex) { preview=null; BuilderMod.LOG.warn("Invalid builder display data",ex); }
+    }
+    private static void receiveScene(Network.Scene scene) {
+        try {
+            if(thumbnails.size()>400) thumbnails.clear();
+            thumbnails.put(scene.id(),new VoxelPreview(scene.width(),scene.height(),scene.depth(),scene.palette(),scene.cells()));
+            thumbnailRequests.remove(scene.id());
+        } catch(RuntimeException ex) {
+            thumbnailRequests.remove(scene.id());
+            BuilderMod.LOG.warn("Invalid blueprint preview {}",scene.id(),ex);
+        }
+    }
+    /** Returns the cached thumbnail, requesting it from the server once if needed. */
+    public static VoxelPreview thumbnail(String id) {
+        var cached=thumbnails.get(id);
+        if(cached!=null) return cached;
+        long now=net.minecraft.Util.getMillis();
+        Long last=thumbnailRequests.get(id);
+        if(last==null || now-last>2500L) {
+            thumbnailRequests.put(id,now);
+            net.neoforged.neoforge.network.PacketDistributor.sendToServer(new Network.PreviewRequest(id));
+        }
+        return null;
     }
     private static void render(RenderLevelStageEvent event) {
         if(event.getStage()!=RenderLevelStageEvent.Stage.AFTER_TRANSLUCENT_BLOCKS || preview==null) return;

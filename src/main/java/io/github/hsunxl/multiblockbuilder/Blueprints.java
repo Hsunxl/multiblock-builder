@@ -17,7 +17,9 @@ public final class Blueprints extends SimpleJsonResourceReloadListener {
             catch (RuntimeException ex) { BuilderMod.LOG.warn("Skipped blueprint {}: {}", id, ex.getMessage()); }
         });
         values = Collections.unmodifiableMap(next);
-        BuilderMod.LOG.info("Loaded {} buildable blueprints", values.size());
+        long survival = values.values().stream().filter(Blueprint::survival).count();
+        BuilderMod.LOG.info("Loaded {} buildable blueprints ({} survival, {} creative-only)",
+                values.size(), survival, values.size() - survival);
     }
     public Blueprint get(String id) { var key=ResourceLocation.tryParse(id); return key==null?null:values.get(key); }
     public Collection<Blueprint> all() { return values.values(); }

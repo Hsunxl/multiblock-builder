@@ -157,6 +157,72 @@ public final class CatalogScreen extends Screen {
             graphics.drawCenteredString(font,Component.translatable("multiblock_builder.catalog.empty"),
                     panelX + panelWidth / 2,panelY + panelHeight / 2,0xFF8FA3B0);
         }
+        renderHoverCard(graphics,mouseX,mouseY);
+    }
+
+    private Entry hoveredEntry(int mouseX,int mouseY) {
+        for (var widget : dynamic) {
+            if (widget instanceof Row row && row.isMouseOver(mouseX,mouseY)) return row.entry;
+        }
+        return null;
+    }
+
+    /** A large 3D thumbnail instead of a raw registry id. */
+    private void renderHoverCard(GuiGraphics graphics,int mouseX,int mouseY) {
+        Entry entry = hoveredEntry(mouseX,mouseY);
+        if (entry == null) return;
+
+        int cardWidth = 252, cardHeight = 192;
+        int x = mouseX + 16, y = mouseY - 24;
+        if (x + cardWidth > width - 4) x = mouseX - cardWidth - 16;
+        x = Math.max(4,Math.min(x,width - cardWidth - 4));
+        y = Math.max(4,Math.min(y,height - cardHeight - 4));
+
+        graphics.fill(x,y,x + cardWidth,y + cardHeight,0xFA0C1218);
+        graphics.fill(x,y,x + cardWidth,y + 2,0xFF55D6FF);
+        graphics.fill(x,y + cardHeight - 1,x + cardWidth,y + cardHeight,0xFF2B3A45);
+        graphics.fill(x,y,x + 1,y + cardHeight,0xFF2B3A45);
+        graphics.fill(x + cardWidth - 1,y,x + cardWidth,y + cardHeight,0xFF2B3A45);
+
+        int previewX = x + 10, previewY = y + 10, previewW = cardWidth - 20, previewH = 110;
+        graphics.fill(previewX,previewY,previewX + previewW,previewY + previewH,0xFF070C10);
+        graphics.fill(previewX,previewY,previewX + previewW,previewY + 1,0x33FFFFFF);
+        VoxelPreview preview = BuilderClient.thumbnail(entry.id);
+        if (preview != null) {
+            preview.render(graphics,previewX,previewY,previewW,previewH);
+        } else {
+            graphics.drawCenteredString(font,Component.translatable("multiblock_builder.preview.loading"),
+                    previewX + previewW / 2,previewY + previewH / 2 - 4,0xFF8FA3B0);
+        }
+
+        int textX = x + 10;
+        graphics.drawString(font,font.plainSubstrByWidth(entry.title,cardWidth - 20),
+                textX,y + 126,0xFFF2F6FA,false);
+
+        String meta = entry.width + "×" + entry.height + "×" + entry.depth + " · " + entry.cells
+                + " " + Component.translatable("multiblock_builder.blocks").getString();
+        graphics.drawString(font,font.plainSubstrByWidth(meta,cardWidth - 20 - 52),
+                textX,y + 141,0xFFA9BCC8,false);
+
+        String badge = entry.survival
+                ? Component.translatable("multiblock_builder.badge.survival").getString()
+                : Component.translatable("multiblock_builder.badge.creative").getString();
+        int badgeWidth = font.width(badge) + 10;
+        graphics.fill(x + cardWidth - badgeWidth - 10,y + 138,x + cardWidth - 10,y + 152,
+                entry.survival ? 0x3322C7AA : 0x33FFB74D);
+        graphics.drawString(font,badge,x + cardWidth - badgeWidth - 5,y + 141,
+                entry.survival ? 0xFF7CF0D2 : 0xFFFFD18A,false);
+
+        String series = Component.translatable("multiblock_builder.card.series",entry.category).getString();
+        if (entry.formation) series += " · " + Component.translatable("multiblock_builder.badge.auto").getString();
+        graphics.drawString(font,font.plainSubstrByWidth(series,cardWidth - 20),
+                textX,y + 156,0xFF7E929E,false);
+
+        String hint = entry.survival
+                ? Component.translatable("multiblock_builder.card.hint").getString()
+                : Component.translatable("multiblock_builder.card.creative_hint").getString();
+        graphics.drawString(font,font.plainSubstrByWidth(hint,cardWidth - 20),
+                textX,y + 173,entry.survival ? 0xFF6E8492 : 0xFFD9A05B,false);
     }
 
     @Override public boolean mouseScrolled(double mouseX,double mouseY,double horizontal,double vertical) {
@@ -177,7 +243,6 @@ public final class CatalogScreen extends Screen {
         private Row(Entry entry,int x,int y,int width,int height) {
             super(x,y,width,height,Component.literal(entry.title));
             this.entry = entry;
-            setTooltip(Tooltip.create(Component.literal(entry.id)));
         }
 
         @Override protected void renderWidget(GuiGraphics graphics,int mouseX,int mouseY,float partialTick) {

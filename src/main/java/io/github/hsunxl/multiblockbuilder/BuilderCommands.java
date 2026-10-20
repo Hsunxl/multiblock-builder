@@ -36,7 +36,10 @@ public final class BuilderCommands {
                 var p=c.getSource().getPlayerOrException(); var stack=held(p);
                 String id=StringArgumentType.getString(c,"id"); var blueprint=Blueprints.INSTANCE.get(id);
                 if(blueprint==null) throw new SimpleCommandExceptionType(Component.literal("Unknown blueprint")).create();
-                var t=Selection.read(stack); t.putString("blueprint",id); t.remove("origin"); t.putInt("rotation",0); t.putInt("layer",-1); Selection.write(stack,t);
+                var t=Selection.read(stack); t.putString("blueprint",id); t.remove("origin"); t.putInt("rotation",0); t.putInt("layer",-1);
+                t.putString("title",blueprint.title()); t.putInt("width",blueprint.width());
+                t.putInt("height",blueprint.height()); t.putInt("depth",blueprint.depth());
+                t.putInt("cells",blueprint.cells().size()); Selection.write(stack,t);
                 Network.preview(p,stack); p.sendSystemMessage(Component.literal(blueprint.title())); return 1;
             })))
             .then(literal("rotate").executes(c->{
