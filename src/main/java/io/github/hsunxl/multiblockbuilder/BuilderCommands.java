@@ -32,7 +32,7 @@ public final class BuilderCommands {
                 for(var b:Blueprints.INSTANCE.all()) c.getSource().sendSuccess(()->Component.literal(b.id()+" · "+b.title()+(b.survival()?"":" [creative]")),false);
                 return 1;
             }))
-            .then(literal("select").then(argument("id",StringArgumentType.word()).suggests((c,b)->SharedSuggestionProvider.suggest(Blueprints.INSTANCE.all().stream().map(v->v.id().toString()),b)).executes(c->{
+            .then(literal("select").then(argument("id",StringArgumentType.greedyString()).suggests((c,b)->SharedSuggestionProvider.suggest(Blueprints.INSTANCE.all().stream().map(v->v.id().toString()),b)).executes(c->{
                 var p=c.getSource().getPlayerOrException(); var stack=held(p);
                 String id=StringArgumentType.getString(c,"id"); var blueprint=Blueprints.INSTANCE.get(id);
                 if(blueprint==null) throw new SimpleCommandExceptionType(Component.literal("Unknown blueprint")).create();

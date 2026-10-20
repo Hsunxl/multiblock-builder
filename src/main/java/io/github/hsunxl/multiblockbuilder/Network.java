@@ -2,6 +2,7 @@ package io.github.hsunxl.multiblockbuilder;
 
 import com.google.gson.*;
 import java.util.function.Consumer;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
@@ -25,7 +26,16 @@ public final class Network {
     public static void catalog(ServerPlayer p) {
         var root=new JsonObject(); var entries=new JsonArray();
         for(var b:Blueprints.INSTANCE.all().stream().limit(512).toList()) {
-            var entry=new JsonObject(); entry.addProperty("id",b.id().toString()); entry.addProperty("title",b.title()); entry.addProperty("survival",b.survival()); entries.add(entry);
+            var entry=new JsonObject();
+            entry.addProperty("id",b.id().toString());
+            entry.addProperty("title",b.title());
+            entry.addProperty("survival",b.survival());
+            entry.addProperty("cells",b.cells().size());
+            entry.addProperty("formation",!b.formation().isEmpty());
+            var size=new JsonArray(); size.add(b.width()); size.add(b.height()); size.add(b.depth()); entry.add("size",size);
+            var icon=BuiltInRegistries.ITEM.getKey(b.cells().get(0).state().getBlock().asItem());
+            entry.addProperty("icon",icon.toString());
+            entries.add(entry);
         }
         root.add("catalog",entries); send(p,root);
     }
