@@ -131,7 +131,7 @@ public final class GuideCapture {
                     var json = new JsonObject();
                     json.addProperty("title",title);
                     var size = new JsonArray(); size.add(width); size.add(height); size.add(depth); json.add("size",size);
-                    json.addProperty("survival",false);
+                    json.addProperty("survival",true);
                     if (path.endsWith("ae_family/ae_plus_ultimate")) json.addProperty("formation","extendedae_plus:ultimate_super_assembler_matrix");
                     var blocks = new JsonArray();
                     cells.sort(Comparator.comparingInt((Cell c)->c.pos.getY()).thenComparingInt(c->c.pos.getZ()).thenComparingInt(c->c.pos.getX()));
