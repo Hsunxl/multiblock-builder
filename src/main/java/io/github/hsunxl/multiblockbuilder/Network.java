@@ -17,7 +17,7 @@ public final class Network {
     public record Data(String json) implements CustomPacketPayload {
         public static final Type<Data> TYPE=new Type<>(ResourceLocation.fromNamespaceAndPath(BuilderMod.ID,"data"));
         public static final StreamCodec<RegistryFriendlyByteBuf,Data> CODEC=StreamCodec.of(
-            (buf,msg)->buf.writeUtf(msg.json,700_000),buf->new Data(buf.readUtf(700_000)));
+            (buf,msg)->buf.writeUtf(msg.json,2_000_000),buf->new Data(buf.readUtf(2_000_000)));
         @Override public Type<Data> type() { return TYPE; }
     }
     public static void register(RegisterPayloadHandlersEvent event) {

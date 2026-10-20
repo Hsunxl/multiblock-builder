@@ -1,25 +1,50 @@
 package io.github.hsunxl.multiblockbuilder.client;
 
 import com.google.gson.*;
+import com.mojang.brigadier.arguments.IntegerArgumentType;
 import io.github.hsunxl.multiblockbuilder.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.*;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.commands.Commands;
 import net.minecraft.world.phys.*;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
+import net.neoforged.neoforge.client.event.RegisterClientCommandsEvent;
 import net.neoforged.neoforge.client.event.RenderLevelStageEvent;
 
 @Mod(value=BuilderMod.ID,dist=Dist.CLIENT)
 public final class BuilderClient {
     private static Blueprint preview;
     private static java.util.List<java.util.List<Blueprint.Cell>> rotations=java.util.List.of();
+    private static boolean captureOnStartDone;
     public BuilderClient(IEventBus bus) {
         Network.receiver=BuilderClient::receive;
         NeoForge.EVENT_BUS.addListener(BuilderClient::render);
+        NeoForge.EVENT_BUS.addListener(BuilderClient::clientTick);
+        NeoForge.EVENT_BUS.addListener(BuilderClient::clientCommands);
+    }
+
+    private static void clientTick(ClientTickEvent.Post event) {
+        if (captureOnStartDone || System.getProperty("mbuilder.captureOnStart") == null) return;
+        var mc = Minecraft.getInstance();
+        if (mc.level == null || mc.player == null) return;
+        captureOnStartDone = true;
+        GuideCapture.run(mc,10);
+    }
+
+    private static void clientCommands(RegisterClientCommandsEvent event) {
+        event.getDispatcher().register(Commands.literal("mbuilder-capture")
+                .executes(ctx -> { GuideCapture.run(Minecraft.getInstance(),10); return 1; })
+                .then(Commands.argument("min",IntegerArgumentType.integer(1,4096))
+                        .executes(ctx -> {
+                            GuideCapture.run(Minecraft.getInstance(),IntegerArgumentType.getInteger(ctx,"min"));
+                            return 1;
+                        })));
     }
     private static void receive(String json) {
         try {

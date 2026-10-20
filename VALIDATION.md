@@ -18,11 +18,13 @@
   6. ME source simulation/extract/refund is transactional; a second-item shortage restores both items.
 - The test server starts without client classes on the dedicated side and shuts down normally. Only its own project `run/` world is used.
 - Generated data pack uses `pack_format` 48, marker `.mbuilder-import`, and `import-report.json`; world datapack IDs use the expected `file/mbuilder_import` form.
+- Runtime capture in the actual ATM10 client (GuideME + all 557 mods): **353** StructureViewer scenes, **286 exported with >=10 blocks**, **66 scenes with 1–9 blocks**, **1 scene with no display blocks**, 0 compile failures. All 286 pass `Blueprint.parse`; server reload reports **441 buildable blueprints** (155 existing + 286 captured), including three 5,832-block Mekanism matrices after raising the cap to 8,192.
+- Capture report: `saves/ATM10/datapacks/mbuilder_import/capture-report.json`; `level.dat` backed up as `level.dat.bak-mbuilder` before the local datapack was enabled.
 
 ## Not claimed
 
-- No ATM10 production world was opened or changed.
-- No actual client GUI/GPU or multiplayer latency acceptance test.
+- The capture test ran in the local ATM10 world and modified its `datapacks/mbuilder_import` and `level.dat` (backup kept). No server/production world was touched.
+- No actual client GUI/GPU or multiplayer latency acceptance test; the capture command's result was validated through logs and `Blueprint.parse`, not by clicking every row.
 - ME transaction logic is covered with a fake `MEStorage`; an in-world AE2 grid/interface binding was not automated in GameTest.
 - The `formUltimate` adapter was not executed in GameTest because the development server does not load ExtendedAE Plus. It needs one in-pack test with the actual ultimate matrix.
 - The `/mbuilder import` command's in-place pack enabling/reload was not run against a production world; the converter, pack layout and ID were validated separately.

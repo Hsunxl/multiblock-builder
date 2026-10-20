@@ -13,7 +13,7 @@ import net.minecraft.world.item.BlockItem;
 /** Server-owned, data-only blueprint. No block entity NBT, commands or entities. */
 public record Blueprint(ResourceLocation id, String title, int width, int height, int depth,
                         boolean survival, String formation, List<Cell> cells, String json) {
-    public static final int MAX_CELLS = 4096;
+    public static final int MAX_CELLS = 8192;
     public record Cell(BlockPos offset, BlockState state) {}
     public Blueprint { cells = List.copyOf(cells); }
     public List<Cell> rotated(int turns) {
@@ -60,7 +60,7 @@ public record Blueprint(ResourceLocation id, String title, int width, int height
         String title = root.has("title") ? root.get("title").getAsString() : id.toString();
         if (title.length() > 160) throw new IllegalArgumentException("Title too long");
         String json = root.toString();
-        if (json.getBytes(java.nio.charset.StandardCharsets.UTF_8).length > 600_000) throw new IllegalArgumentException("Blueprint too large");
+        if (json.getBytes(java.nio.charset.StandardCharsets.UTF_8).length > 1_500_000) throw new IllegalArgumentException("Blueprint too large");
         return new Blueprint(id,title,w,h,d,survival,formation,cells,json);
     }
     private static <T extends Comparable<T>> BlockState with(BlockState s, Property<T> p, String value) {
