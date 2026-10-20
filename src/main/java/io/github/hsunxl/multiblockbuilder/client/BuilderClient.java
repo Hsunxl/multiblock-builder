@@ -62,7 +62,7 @@ public final class BuilderClient {
     private static void receiveScene(Network.Scene scene) {
         try {
             if(thumbnails.size()>400) thumbnails.clear();
-            thumbnails.put(scene.id(),new VoxelPreview(scene.width(),scene.height(),scene.depth(),scene.palette(),scene.cells()));
+            thumbnails.put(scene.id(),new VoxelPreview(scene.id(),scene.width(),scene.height(),scene.depth(),scene.palette(),scene.cells()));
             thumbnailRequests.remove(scene.id());
         } catch(RuntimeException ex) {
             thumbnailRequests.remove(scene.id());
