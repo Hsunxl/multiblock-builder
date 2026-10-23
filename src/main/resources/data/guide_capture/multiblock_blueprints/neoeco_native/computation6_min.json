@@ -1,0 +1,397 @@
+{
+  "title": "计算系统 · L6 · 最小段",
+  "size": [
+    5,
+    3,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "neoecoae:computation_drive",
+      "properties": {
+        "facing": "north",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "neoecoae:computation_parallel_core_l6",
+      "properties": {
+        "facing": "south",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "neoecoae:computation_cooling_controller_l6",
+      "properties": {
+        "facing": "west",
+        "formed": "false",
+        "mirrored": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "neoecoae:computation_transmitter",
+      "properties": {
+        "facing": "north",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        0
+      ],
+      "block": "neoecoae:computation_system_l6",
+      "properties": {
+        "facing": "north",
+        "formed": "false",
+        "high_energy_network_switch": "false",
+        "mirrored": "false",
+        "network_switch": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "neoecoae:computation_threading_core_l6",
+      "properties": {
+        "facing": "south",
+        "formed": "false",
+        "working": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "block": "neoecoae:computation_interface",
+      "properties": {
+        "formed": "false",
+        "storage_mode": "storage"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "neoecoae:computation_drive",
+      "properties": {
+        "facing": "north",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        0
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "neoecoae:computation_parallel_core_l6",
+      "properties": {
+        "facing": "south",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "block": "neoecoae:computation_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    }
+  ]
+}

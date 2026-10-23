@@ -1,0 +1,85 @@
+{
+  "title": "金属冲压机",
+  "size": [
+    3,
+    3,
+    1
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "minecraft:piston",
+      "properties": {
+        "facing": "down",
+        "extended": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:conveyor_basic",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:conveyor_basic",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "east"
+      }
+    }
+  ]
+}

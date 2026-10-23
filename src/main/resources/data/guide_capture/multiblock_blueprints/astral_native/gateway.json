@@ -1,0 +1,443 @@
+{
+  "title": "天体传送门",
+  "size": [
+    7,
+    2,
+    7
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "astralsorcery:marble_runed"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "block": "astralsorcery:marble_runed"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "block": "astralsorcery:sooty_marble_raw"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "block": "astralsorcery:marble_runed"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "block": "astralsorcery:marble_arch"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "block": "astralsorcery:marble_runed"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "astralsorcery:marble_engraved"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        0
+      ],
+      "block": "astralsorcery:marble_engraved"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        3
+      ],
+      "block": "astralsorcery:celestial_gateway"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        6
+      ],
+      "block": "astralsorcery:marble_engraved"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        6
+      ],
+      "block": "astralsorcery:marble_engraved"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "充能台与四展示台",
+  "size": [
+    7,
+    1,
+    7
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "actuallyadditions:empowerer"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "actuallyadditions:display_stand"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "actuallyadditions:display_stand"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "actuallyadditions:display_stand"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "actuallyadditions:display_stand"
+    }
+  ]
+}

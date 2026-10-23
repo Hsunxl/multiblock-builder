@@ -1,0 +1,155 @@
+{
+  "title": "蒸汽涡轮",
+  "size": [
+    3,
+    2,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "railcraft:steam_turbine",
+      "properties": {
+        "rotated": "false",
+        "type": "none"
+      }
+    }
+  ]
+}

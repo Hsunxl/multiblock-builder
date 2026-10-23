@@ -1,0 +1,210 @@
+{
+  "title": "燃料发电机 · 搭建态",
+  "size": [
+    3,
+    2,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "oritech:fuel_generator_block",
+      "properties": {
+        "facing": "north",
+        "machine_assembled": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "oritech:machine_core_1",
+      "properties": {
+        "core_used": "false"
+      }
+    }
+  ]
+}

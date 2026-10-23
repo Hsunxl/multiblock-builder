@@ -1,0 +1,146 @@
+{
+  "title": "灌装机",
+  "size": [
+    3,
+    3,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:conveyor_basic",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:fluid_pump",
+      "properties": {
+        "multiblockslave": "false",
+        "waterlogged": "false",
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:conveyor_basic",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:conveyor_basic",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "immersiveengineering:fluid_pump",
+      "properties": {
+        "multiblockslave": "true",
+        "waterlogged": "false",
+        "facing": "north"
+      }
+    }
+  ]
+}

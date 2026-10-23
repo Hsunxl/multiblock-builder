@@ -1,0 +1,3243 @@
+{
+  "title": "阿布拉斯的开放统驭咒",
+  "size": [
+    17,
+    2,
+    17
+  ],
+  "survival": false,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        0
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        0
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        0
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        0
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        0
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        1
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        1
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        1
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        1
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        1
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        2
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        2
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        2
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        2
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        2
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        3
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        3
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        3
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        3
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        3
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        4
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        4
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        4
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        4
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        4
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        5
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        5
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        5
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        5
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        5
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        6
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        6
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        6
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        6
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        6
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        7
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        7
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        7
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        7
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        7
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        7
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        7
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        7
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        7
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        8
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        8
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        8
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        8
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        8
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        8
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        8
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        8
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        9
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        9
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        9
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        9
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        9
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        9
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        9
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        9
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        9
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        9
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        9
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        9
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        9
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        9
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        9
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        9
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        9
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        10
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        10
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        10
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        10
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        10
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        10
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        10
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        10
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        10
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        10
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        10
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        10
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        10
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        10
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        10
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        10
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        10
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        11
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        11
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        11
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        11
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        11
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        11
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        11
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        11
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        11
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        11
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        11
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        11
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        11
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        11
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        11
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        11
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        11
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        12
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        12
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        12
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        12
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        12
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        12
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        12
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        12
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        12
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        12
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        12
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        12
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        12
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        12
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        12
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        12
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        12
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        13
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        13
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        13
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        13
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        13
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        13
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        13
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        13
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        13
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        13
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        13
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        13
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        13
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        13
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        13
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        13
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        13
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        14
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        14
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        14
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        14
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        14
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        14
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        14
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        14
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        14
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        14
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        14
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        14
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        14
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        14
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        14
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        14
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        14
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        15
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        15
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        15
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        15
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        15
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        15
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        15
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        15
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        15
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        15
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        15
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        15
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        15
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        15
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        15
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        15
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        15
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        16
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        16
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        16
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        16
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        16
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        16
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        16
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        16
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        16
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        16
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        16
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        16
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        16
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        16
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        16
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        16
+      ],
+      "block": "occultism:otherrock"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        16
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        1
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        7,
+        1,
+        2
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        2
+      ],
+      "block": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        2
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        3
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        4
+      ],
+      "block": "occultism:chalk_glyph_orange",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        7,
+        1,
+        4
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        4
+      ],
+      "block": "minecraft:skeleton_skull",
+      "properties": {
+        "powered": "false",
+        "rotation": "0",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        1,
+        4
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        11,
+        1,
+        4
+      ],
+      "block": "occultism:chalk_glyph_orange",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        5
+      ],
+      "block": "occultism:chalk_glyph_orange",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        5
+      ],
+      "block": "minecraft:skeleton_skull",
+      "properties": {
+        "powered": "false",
+        "rotation": "0",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        5
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        5
+      ],
+      "block": "occultism:chalk_glyph_white",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        10,
+        1,
+        5
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        11,
+        1,
+        5
+      ],
+      "block": "minecraft:skeleton_skull",
+      "properties": {
+        "powered": "false",
+        "rotation": "0",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        12,
+        1,
+        5
+      ],
+      "block": "occultism:chalk_glyph_orange",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        6
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        6
+      ],
+      "block": "minecraft:candle",
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        1,
+        6
+      ],
+      "block": "occultism:chalk_glyph_gray",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        6
+      ],
+      "block": "minecraft:candle",
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        1,
+        6
+      ],
+      "block": "occultism:chalk_glyph_gray",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        10,
+        1,
+        6
+      ],
+      "block": "minecraft:candle",
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        11,
+        1,
+        6
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        7
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        7
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        7
+      ],
+      "block": "occultism:chalk_glyph_gray",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        7
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        10,
+        1,
+        7
+      ],
+      "block": "occultism:chalk_glyph_gray",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        12,
+        1,
+        7
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        14,
+        1,
+        7
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        8
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        8
+      ],
+      "block": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        8
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        8
+      ],
+      "block": "minecraft:skeleton_skull",
+      "properties": {
+        "powered": "false",
+        "rotation": "0",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        8
+      ],
+      "block": "occultism:chalk_glyph_white",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        8
+      ],
+      "block": "minecraft:candle",
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        1,
+        8
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        8
+      ],
+      "block": "occultism:golden_sacrificial_bowl"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        8
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        10,
+        1,
+        8
+      ],
+      "block": "minecraft:candle",
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        11,
+        1,
+        8
+      ],
+      "block": "occultism:chalk_glyph_white",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        12,
+        1,
+        8
+      ],
+      "block": "minecraft:skeleton_skull",
+      "properties": {
+        "powered": "false",
+        "rotation": "0",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        13,
+        1,
+        8
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        14,
+        1,
+        8
+      ],
+      "block": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "pos": [
+        15,
+        1,
+        8
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        9
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        9
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        9
+      ],
+      "block": "occultism:chalk_glyph_gray",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        9
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        10,
+        1,
+        9
+      ],
+      "block": "occultism:chalk_glyph_gray",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        12,
+        1,
+        9
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        14,
+        1,
+        9
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        10
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        10
+      ],
+      "block": "minecraft:candle",
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        1,
+        10
+      ],
+      "block": "occultism:chalk_glyph_gray",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        10
+      ],
+      "block": "minecraft:candle",
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        1,
+        10
+      ],
+      "block": "occultism:chalk_glyph_gray",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        10,
+        1,
+        10
+      ],
+      "block": "minecraft:candle",
+      "properties": {
+        "candles": "1",
+        "lit": "false",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        11,
+        1,
+        10
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        11
+      ],
+      "block": "occultism:chalk_glyph_orange",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        11
+      ],
+      "block": "minecraft:skeleton_skull",
+      "properties": {
+        "powered": "false",
+        "rotation": "0",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        11
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        11
+      ],
+      "block": "occultism:chalk_glyph_white",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        10,
+        1,
+        11
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        11,
+        1,
+        11
+      ],
+      "block": "minecraft:skeleton_skull",
+      "properties": {
+        "powered": "false",
+        "rotation": "0",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        12,
+        1,
+        11
+      ],
+      "block": "occultism:chalk_glyph_orange",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        12
+      ],
+      "block": "occultism:chalk_glyph_orange",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        7,
+        1,
+        12
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        12
+      ],
+      "block": "minecraft:skeleton_skull",
+      "properties": {
+        "powered": "false",
+        "rotation": "0",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        1,
+        12
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        11,
+        1,
+        12
+      ],
+      "block": "occultism:chalk_glyph_orange",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        13
+      ],
+      "block": "occultism:chalk_glyph_lime",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        7,
+        1,
+        14
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        14
+      ],
+      "block": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        14
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        15
+      ],
+      "block": "occultism:chalk_glyph_gold",
+      "properties": {
+        "facing": "north",
+        "sign": "0"
+      }
+    }
+  ]
+}

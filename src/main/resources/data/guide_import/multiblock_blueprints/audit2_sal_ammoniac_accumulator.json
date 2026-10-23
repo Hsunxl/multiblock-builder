@@ -1,0 +1,27 @@
+{
+  "title": "硇砂蓄积器",
+  "size": [
+    3,
+    2,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "theurgy:sal_ammoniac_accumulator"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "theurgy:sal_ammoniac_tank"
+    }
+  ]
+}

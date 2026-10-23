@@ -1,0 +1,115 @@
+{
+  "title": "星光充能器 · 结构等级 2",
+  "size": [
+    7,
+    3,
+    7
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "silentgear:starlight_charger"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "silentgear:azure_electrum_block"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        6
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        6
+      ],
+      "block": "silentgear:azure_electrum_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        0
+      ],
+      "block": "silentgear:azure_electrum_block"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        6
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        6
+      ],
+      "block": "silentgear:azure_electrum_block"
+    }
+  ]
+}

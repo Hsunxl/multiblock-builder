@@ -1,0 +1,419 @@
+{
+  "title": "铸造厂 · 结构与外围示例",
+  "size": [
+    6,
+    3,
+    5
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "productivemetalworks:liquid_heating_coil",
+      "properties": {
+        "attached": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "productivemetalworks:liquid_heating_coil",
+      "properties": {
+        "attached": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "productivemetalworks:liquid_heating_coil",
+      "properties": {
+        "attached": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "productivemetalworks:liquid_heating_coil",
+      "properties": {
+        "attached": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "productivemetalworks:liquid_heating_coil",
+      "properties": {
+        "attached": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "productivemetalworks:liquid_heating_coil",
+      "properties": {
+        "attached": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "productivemetalworks:liquid_heating_coil",
+      "properties": {
+        "attached": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "productivemetalworks:liquid_heating_coil",
+      "properties": {
+        "attached": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "productivemetalworks:liquid_heating_coil",
+      "properties": {
+        "attached": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "productivemetalworks:casting_basin",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "productivemetalworks:casting_table",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        0
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "block": "productivemetalworks:black_foundry_tank",
+      "properties": {
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        2
+      ],
+      "block": "productivemetalworks:black_foundry_controller",
+      "properties": {
+        "attached": "true",
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        3
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        3
+      ],
+      "block": "productivemetalworks:black_foundry_drain",
+      "properties": {
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        3
+      ],
+      "block": "productivemetalworks:foundry_tap",
+      "properties": {
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        4
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        4
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        4
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        4
+      ],
+      "block": "productivemetalworks:foundry_tap",
+      "properties": {
+        "facing": "south"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        0
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        2
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        3
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        3
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        4
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        4
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        4
+      ],
+      "block": "productivemetalworks:black_fire_bricks",
+      "properties": {
+        "facing": "north"
+      }
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "title": "空间存储 · 3³ 改进布置",
+  "size": [
+    7,
+    5,
+    5
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "block": "ae2:spatial_io_port",
+      "properties": {
+        "powered": "true",
+        "spin": "0",
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "ae2:energy_cell",
+      "properties": {
+        "fullness": "4"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "online",
+        "type": "block"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        1
+      ],
+      "block": "minecraft:oak_button",
+      "properties": {
+        "face": "floor",
+        "powered": "false",
+        "facing": "south"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        3
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        4
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        3,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        1
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        2
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        3
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        4,
+        4
+      ],
+      "block": "ae2:cable_bus",
+      "properties": {
+        "waterlogged": "false",
+        "light_level": "0"
+      }
+    },
+    {
+      "pos": [
+        2,
+        4,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        4,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        4,
+        4
+      ],
+      "block": "ae2:spatial_pylon",
+      "properties": {
+        "powered_on": "true"
+      }
+    }
+  ]
+}

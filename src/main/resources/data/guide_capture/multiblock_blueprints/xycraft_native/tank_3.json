@@ -1,0 +1,229 @@
+{
+  "title": "储罐 · 3×3×3 双接口示例",
+  "size": [
+    3,
+    3,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "xycraft_machines:valve",
+      "properties": {
+        "axis": "y",
+        "fluid_balance": "false",
+        "initialized": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "xycraft_machines:item_io",
+      "properties": {
+        "axis": "y",
+        "fluid_mode": "fill",
+        "initialized": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "minecraft:stone"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "minecraft:stone"
+    }
+  ]
+}

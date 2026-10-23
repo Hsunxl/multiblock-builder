@@ -1,0 +1,27 @@
+{
+  "title": "汞蒸馏器",
+  "size": [
+    3,
+    2,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "theurgy:distiller"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "theurgy:pyromantic_brazier"
+    }
+  ]
+}

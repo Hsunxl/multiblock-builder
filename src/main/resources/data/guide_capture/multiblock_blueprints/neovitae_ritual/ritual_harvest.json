@@ -1,0 +1,150 @@
+{
+  "title": "丰收仪式",
+  "size": [
+    5,
+    1,
+    5
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "neovitae:master_ritual_stone",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    }
+  ]
+}

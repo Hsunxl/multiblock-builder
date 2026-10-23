@@ -1,0 +1,75 @@
+{
+  "title": "合金窑",
+  "size": [
+    2,
+    2,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:alloybrick"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:alloybrick"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:alloybrick"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:alloybrick"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:alloybrick"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:alloybrick"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:alloybrick"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:alloybrick"
+    }
+  ]
+}

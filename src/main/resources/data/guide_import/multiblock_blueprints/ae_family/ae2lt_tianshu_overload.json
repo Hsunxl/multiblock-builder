@@ -1,0 +1,2685 @@
+{
+  "title": "天枢超算 · 过载主核心布局",
+  "size": [
+    7,
+    7,
+    7
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_port",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_controller",
+      "properties": {
+        "facing": "west",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        1,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        2,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        2,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        2,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        3
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        3
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        3
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        2,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        4
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        4
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        4
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        2,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        2,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        2,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        3,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        3,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        3,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        3,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        3,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        3,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        3,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        3,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        3,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        3,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        3,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        3,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        3,
+        3
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        3,
+        3
+      ],
+      "block": "ae2lt:tianshu_overload_main_core",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        3,
+        3
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        3,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        3,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        3,
+        4
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        3,
+        4
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        3,
+        4
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        3,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        3,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        3,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        3,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        3,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        3,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        3,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        3,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        4,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        4,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        4,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        4,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        4,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        4,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        4,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        4,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        4,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        4,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        4,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        4,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        4,
+        3
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        4,
+        3
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        4,
+        3
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        4,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        4,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        4,
+        4
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        4,
+        4
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        4,
+        4
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        4,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        4,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        4,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        4,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        4,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        4,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        4,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        5,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        5,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        5,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        5,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        5,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        5,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        5,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        5,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        5,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        5,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        5,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        5,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        5,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        5,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        5,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        5,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        5,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        5,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        5,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        5,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        5,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        5,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        5,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        5,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        5,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        5,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_glass",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        5,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        5,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        6,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        6,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        6,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        6,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        6,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        0
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        6,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        6,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        6,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        6,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        6,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        1
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        6,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        6,
+        2
+      ],
+      "block": "ae2lt:closed_loop_pattern_storage",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        6,
+        2
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        6,
+        2
+      ],
+      "block": "ae2lt:closed_loop_seed_storage",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        6,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        2
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        6,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        6,
+        3
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        6,
+        3
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        6,
+        3
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        6,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        3
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        6,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        6,
+        4
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        6,
+        4
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        6,
+        4
+      ],
+      "block": "ae2lt:phase_change_cooling_unit",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        6,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        4
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        6,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        6,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        6,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        6,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        6,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        5
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        6,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        6,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        6,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        4,
+        6,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        6,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        6
+      ],
+      "block": "ae2lt:tianshu_supercomputer_casing",
+      "properties": {
+        "formed": "true"
+      }
+    }
+  ]
+}

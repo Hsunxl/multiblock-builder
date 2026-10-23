@@ -1,0 +1,167 @@
+{
+  "title": "碎石机",
+  "size": [
+    3,
+    2,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "railcraft:crusher",
+      "properties": {
+        "output": "false",
+        "rotated": "false",
+        "type": "none"
+      }
+    }
+  ]
+}

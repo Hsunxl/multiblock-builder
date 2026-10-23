@@ -198,6 +198,38 @@ public final class BuilderGameTests {
             h.succeed();
         });
     }
+    @GameTest(template="empty") public static void bundledBlueprintsShipInsideTheJar(GameTestHelper h) {
+        // The GameTest server only loads AE2 + this mod, so most ATM10 blocks are missing and those
+        // blueprints are skipped at parse time. Inspect the resource pack instead: every bundled file
+        // must be present and well formed, whatever the current mod set can resolve.
+        var resources=h.getLevel().getServer().getResourceManager()
+                .listResources("multiblock_blueprints",p->p.getPath().endsWith(".json"));
+        h.assertTrue(!resources.isEmpty(),"Bundled guide blueprints are visible through the resource manager");
+        long guideFiles=resources.keySet().stream().filter(id->id.getNamespace().startsWith("guide_")).count();
+        h.assertTrue(guideFiles>=385,"Mod jar must bundle the whole guide library, got "+guideFiles);
+        long creative=0;
+        for(var entry:resources.entrySet()) {
+            if(!entry.getKey().getNamespace().startsWith("guide_")) continue;
+            var json=readJson(entry.getValue());
+            h.assertTrue(json.has("size")&&json.has("blocks"),"Bundled blueprint is well formed: "+entry.getKey());
+            if(json.has("survival")&&!json.get("survival").getAsBoolean()) creative++;
+        }
+        h.assertTrue(creative==19,"Exactly 19 creative-only layouts ship in the jar, got "+creative);
+        var ultimate=resources.get(ResourceLocation.fromNamespaceAndPath("guide_import","multiblock_blueprints/ae_family/ae_plus_ultimate.json"));
+        h.assertTrue(ultimate!=null,"Ultimate matrix template ships in the jar");
+        var ultimateJson=readJson(ultimate);
+        h.assertTrue(Formation.ULTIMATE_SUPER_ASSEMBLER_MATRIX.equals(ultimateJson.has("formation")?ultimateJson.get("formation").getAsString():""),
+                "Ultimate matrix keeps its formation adapter");
+        h.assertTrue(ultimateJson.getAsJsonArray("blocks").size()>100,"Ultimate matrix keeps its cells");
+        var demo=Blueprints.INSTANCE.get("multiblock_builder:demo_frame");
+        h.assertTrue(demo!=null&&demo.survival(),"Bundled demo frame still loads");
+        h.succeed();
+    }
+    private static com.google.gson.JsonObject readJson(net.minecraft.server.packs.resources.Resource resource) {
+        try(var reader=resource.openAsReader()) {
+            return JsonParser.parseReader(reader).getAsJsonObject();
+        } catch(java.io.IOException ex) { throw new AssertionError("Unreadable bundled blueprint",ex); }
+    }
     private static final class FakeStorage implements MEStorage {
         private final java.util.Map<AEKey,Long> values=new LinkedHashMap<>();
         void put(Item item,long amount) { values.put(AEItemKey.of(item),amount); }

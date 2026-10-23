@@ -1,0 +1,57 @@
+{
+  "title": "培育器",
+  "size": [
+    5,
+    2,
+    5
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "theurgy:incubator_mercury_vessel"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "theurgy:incubator_salt_vessel"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "theurgy:incubator",
+      "properties": {
+        "east": "false",
+        "south": "true",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        2
+      ],
+      "block": "theurgy:incubator_sulfur_vessel"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "theurgy:pyromantic_brazier"
+    }
+  ]
+}

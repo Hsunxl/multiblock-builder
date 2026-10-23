@@ -1,0 +1,230 @@
+{
+  "title": "基础反应堆 · 入门布局",
+  "size": [
+    3,
+    3,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "bigreactors:basic_reactorpowertapfe_active"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "bigreactors:basic_reactorfuelrod",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "bigreactors:basic_reactorcontroller"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "bigreactors:basic_reactorsolidaccessport"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "bigreactors:basic_reactorcontrolrod"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "bigreactors:basic_reactorcasing"
+    }
+  ]
+}

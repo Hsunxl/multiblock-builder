@@ -1,0 +1,2666 @@
+{
+  "title": "硅岩反应堆 · 9×9×9 含接口",
+  "size": [
+    9,
+    9,
+    9
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        2,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        3,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        3,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        3,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        3,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_port",
+      "properties": {
+        "active": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        4,
+        0
+      ],
+      "block": "mekanism_extras:lead_coated_laser_focus_matrix"
+    },
+    {
+      "pos": [
+        5,
+        4,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_port",
+      "properties": {
+        "active": "false"
+      }
+    },
+    {
+      "pos": [
+        6,
+        4,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_port",
+      "properties": {
+        "active": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        4,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_port",
+      "properties": {
+        "active": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        4,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        6,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        6,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        6,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        6,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        6,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        7,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        7,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        7,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        7,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        7,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        7,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        7,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        7,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        7,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        7,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        7,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        7,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        8,
+        0
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        8,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        8,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        8,
+        1
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        8,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        8,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        8,
+        2
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        8,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        8,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        8,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        8,
+        3
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_controller",
+      "properties": {
+        "active": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        8,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        8,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        8,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        8,
+        4
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        0,
+        8,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        8,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        8,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        8,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        8,
+        8,
+        5
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        8,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        8,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        8,
+        6
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        1,
+        8,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        2,
+        8,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        8,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        6,
+        8,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        7,
+        8,
+        7
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        3,
+        8,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        4,
+        8,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    },
+    {
+      "pos": [
+        5,
+        8,
+        8
+      ],
+      "block": "mekanism_extras:naquadah_reactor_casing"
+    }
+  ]
+}

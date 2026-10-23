@@ -1,0 +1,27 @@
+{
+  "title": "煅烧炉",
+  "size": [
+    3,
+    2,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "theurgy:calcination_oven"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "theurgy:pyromantic_brazier"
+    }
+  ]
+}

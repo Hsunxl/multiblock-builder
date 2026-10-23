@@ -1,0 +1,471 @@
+{
+  "title": "储物筒仓",
+  "size": [
+    3,
+    7,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        6,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        1,
+        6,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        0
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        1
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        2,
+        6,
+        2
+      ],
+      "block": "immersiveengineering:sheetmetal_iron"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:treated_fence",
+      "properties": {
+        "east": "false",
+        "waterlogged": "false",
+        "south": "false",
+        "north": "false",
+        "west": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "immersiveengineering:treated_fence",
+      "properties": {
+        "east": "false",
+        "waterlogged": "false",
+        "south": "false",
+        "north": "false",
+        "west": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:treated_fence",
+      "properties": {
+        "east": "false",
+        "waterlogged": "false",
+        "south": "false",
+        "north": "false",
+        "west": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "immersiveengineering:treated_fence",
+      "properties": {
+        "east": "false",
+        "waterlogged": "false",
+        "south": "false",
+        "north": "false",
+        "west": "false"
+      }
+    }
+  ]
+}

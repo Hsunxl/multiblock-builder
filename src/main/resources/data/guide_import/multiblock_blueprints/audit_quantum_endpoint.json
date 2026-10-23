@@ -1,0 +1,83 @@
+{
+  "title": "量子网络桥 · 单端量子环",
+  "size": [
+    3,
+    3,
+    1
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "ae2:quantum_ring"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "ae2:quantum_ring"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "ae2:quantum_ring"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "ae2:quantum_ring"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "ae2:quantum_link"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "ae2:quantum_ring"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "ae2:quantum_ring"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "ae2:quantum_ring"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "ae2:quantum_ring"
+    }
+  ]
+}

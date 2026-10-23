@@ -1,0 +1,162 @@
+{
+  "title": "大型集成工作站",
+  "size": [
+    3,
+    2,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "neoecoae:large_integrated_working_station_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "neoecoae:large_integrated_working_station_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "neoecoae:large_integrated_working_station_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "neoecoae:large_integrated_working_station_output_hatch",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "neoecoae:large_integrated_working_station_interface",
+      "properties": {
+        "formed": "false",
+        "storage_mode": "storage"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "neoecoae:large_integrated_working_station_input_hatch",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "neoecoae:large_integrated_working_station_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "neoecoae:integrated_working_station",
+      "properties": {
+        "facing": "north",
+        "formed": "false",
+        "working": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "neoecoae:large_integrated_working_station_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "neoecoae:large_integrated_working_station_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "neoecoae:large_integrated_working_station_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "neoecoae:large_integrated_working_station_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1778 @@
+{
+  "title": "能量核心 T5 · 主体与稳定器",
+  "size": [
+    17,
+    7,
+    17
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        7,
+        0,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        2,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        2,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        2,
+        5
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        5
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        5
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        6
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        6
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        6
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        7
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        2,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        2,
+        7
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        8
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        2,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        2,
+        8
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        9
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        2,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        2,
+        9
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        6,
+        2,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        10
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        10
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        10
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        11
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        11
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        11
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        2,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        2,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        3,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        3,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        3,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        3,
+        5
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        5
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        5
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        3,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        6
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        6
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        6
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        7
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        3,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        3,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        3,
+        7
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        3,
+        8
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        3,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        3,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        8
+      ],
+      "block": "draconicevolution:energy_core",
+      "properties": {
+        "active": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        3,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        3,
+        8
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        3,
+        9
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        3,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        3,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        3,
+        9
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        6,
+        3,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        10
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        10
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        10
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        11
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        11
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        11
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        3,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        3,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        3,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        4,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        4,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        4,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        4,
+        5
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        5
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        5
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        6
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        6
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        6
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        7
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        4,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        11,
+        4,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        4,
+        7
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        8
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        4,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        11,
+        4,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        4,
+        8
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        9
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        5,
+        4,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        11,
+        4,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        4,
+        9
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        6,
+        4,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        10
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        10
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        10
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        11
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        11
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        11
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        4,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        4,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        5,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        6
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        7
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        8
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        9
+      ],
+      "block": "minecraft:redstone_block"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        10
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        6,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        6,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        7,
+        6,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        6,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    }
+  ]
+}

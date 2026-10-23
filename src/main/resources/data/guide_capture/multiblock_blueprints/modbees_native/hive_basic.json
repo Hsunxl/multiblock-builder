@@ -1,0 +1,230 @@
+{
+  "title": "模块化蜂箱 · 基础壳体",
+  "size": [
+    3,
+    3,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "modularbees:modular_beehive_core",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "modularbees:modular_beehive_part"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "modularbees:modular_beehive_part"
+    }
+  ]
+}

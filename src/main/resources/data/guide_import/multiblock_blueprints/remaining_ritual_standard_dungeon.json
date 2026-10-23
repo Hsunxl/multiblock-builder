@@ -1,0 +1,571 @@
+{
+  "title": "灾狱之途",
+  "size": [
+    9,
+    7,
+    9
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "neovitae:master_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        7
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        7
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        7
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        2
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        7
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        8
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        7
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        8
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        6
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        7
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        7
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        7
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        6
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        1
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        6
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        7
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        7,
+        4,
+        2
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        1
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        2
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        8
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        6
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        4,
+        0
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        6
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        8
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        2
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        0
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        2
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        5,
+        4,
+        8
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        5
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        5,
+        4,
+        0
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        5
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        8
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        3
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        0
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        3
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        8,
+        4,
+        4
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        4
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        0
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        8
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        4
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        4
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        4
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        4
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        6,
+        4
+      ],
+      "block": "neovitae:air_ritual_stone"
+    }
+  ]
+}

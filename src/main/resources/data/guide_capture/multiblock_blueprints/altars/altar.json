@@ -1,0 +1,406 @@
+{
+  "title": "自然祭坛",
+  "size": [
+    9,
+    4,
+    9
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        3
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        4
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "block": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "block": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        5
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        7
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        7
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        7
+      ],
+      "block": "minecraft:oak_planks"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        0
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "naturesaura:gold_brick"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        2
+      ],
+      "block": "naturesaura:gold_brick"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        4
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        4
+      ],
+      "block": "naturesaura:nature_altar",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        4
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        6
+      ],
+      "block": "naturesaura:gold_brick"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        6
+      ],
+      "block": "naturesaura:gold_brick"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        8
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        0
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        4
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        4
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        8
+      ],
+      "block": "minecraft:stone_bricks"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        0
+      ],
+      "block": "naturesaura:gold_brick"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        4
+      ],
+      "block": "naturesaura:gold_brick"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        4
+      ],
+      "block": "naturesaura:gold_brick"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        8
+      ],
+      "block": "naturesaura:gold_brick"
+    }
+  ]
+}

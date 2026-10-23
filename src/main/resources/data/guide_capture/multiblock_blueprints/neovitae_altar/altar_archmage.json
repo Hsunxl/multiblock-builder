@@ -1,0 +1,918 @@
+{
+  "title": "生命祭坛 · 第 5 阶完整必需结构",
+  "size": [
+    19,
+    7,
+    19
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        9,
+        0,
+        0
+      ],
+      "block": "neovitae:hellforged_block"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        1
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        1
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        1
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        1
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        2
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        2
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        3
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        3
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        4
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        5
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        6
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        7
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        17,
+        0,
+        7
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        8
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        17,
+        0,
+        8
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        9
+      ],
+      "block": "neovitae:hellforged_block"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        9
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        17,
+        0,
+        9
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        18,
+        0,
+        9
+      ],
+      "block": "neovitae:hellforged_block"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        10
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        17,
+        0,
+        10
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        11
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        17,
+        0,
+        11
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        12
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        12
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        13
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        16,
+        0,
+        13
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        14
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        14
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        15
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        15
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        14,
+        0,
+        15
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        15,
+        0,
+        15
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        16
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        16
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        12,
+        0,
+        16
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        13,
+        0,
+        16
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        17
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        17
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        17
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        17
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        17
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        18
+      ],
+      "block": "neovitae:hellforged_block"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        4
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        4
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        4
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        4
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        4
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        5
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        5
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        6
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        13,
+        1,
+        6
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        7
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        7
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        8
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        8
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        9
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        9
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        10
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        10
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        11
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        14,
+        1,
+        11
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        5,
+        1,
+        12
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        13,
+        1,
+        12
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        6,
+        1,
+        13
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        12,
+        1,
+        13
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        7,
+        1,
+        14
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        14
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        14
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        14
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        14
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        6
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        6
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        6
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        7
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        7
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        8
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        12,
+        2,
+        8
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        9
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        12,
+        2,
+        9
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        6,
+        2,
+        10
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        12,
+        2,
+        10
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        7,
+        2,
+        11
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        11
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        8,
+        2,
+        12
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        12
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        12
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        8
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        8
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        8
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        9
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        9
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        8,
+        3,
+        10
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        10
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        10
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        9
+      ],
+      "block": "neovitae:ara_vitae",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        9,
+        5,
+        5
+      ],
+      "block": "neovitae:blood_stained_glass"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        9
+      ],
+      "block": "neovitae:blood_stained_glass"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        9
+      ],
+      "block": "neovitae:blood_stained_glass"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        13
+      ],
+      "block": "neovitae:blood_stained_glass"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        3
+      ],
+      "block": "neovitae:bloodstone_brick"
+    },
+    {
+      "pos": [
+        15,
+        6,
+        3
+      ],
+      "block": "neovitae:bloodstone_brick"
+    },
+    {
+      "pos": [
+        3,
+        6,
+        15
+      ],
+      "block": "neovitae:bloodstone_brick"
+    },
+    {
+      "pos": [
+        15,
+        6,
+        15
+      ],
+      "block": "neovitae:bloodstone_brick"
+    }
+  ]
+}

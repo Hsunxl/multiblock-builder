@@ -1,0 +1,583 @@
+{
+  "title": "存储稳定器 · 布置示例",
+  "size": [
+    9,
+    3,
+    9
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        2
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        3
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        5
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        6
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        7
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        4
+      ],
+      "block": "occultism:storage_controller"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        8
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        0
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "block": "occultism:storage_stabilizer_tier1",
+      "properties": {
+        "facing": "south"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        4
+      ],
+      "block": "occultism:storage_stabilizer_tier1",
+      "properties": {
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        7,
+        2,
+        4
+      ],
+      "block": "occultism:storage_stabilizer_tier1",
+      "properties": {
+        "facing": "west"
+      }
+    },
+    {
+      "pos": [
+        8,
+        2,
+        4
+      ],
+      "block": "occultism:otherstone"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        7
+      ],
+      "block": "occultism:storage_stabilizer_tier1",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        8
+      ],
+      "block": "occultism:otherstone"
+    }
+  ]
+}

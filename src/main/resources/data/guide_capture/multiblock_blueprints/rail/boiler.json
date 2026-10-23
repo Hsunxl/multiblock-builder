@@ -1,0 +1,187 @@
+{
+  "title": "蒸汽锅炉",
+  "size": [
+    2,
+    4,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "railcraft:solid_fueled_firebox",
+      "properties": {
+        "lit": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "railcraft:solid_fueled_firebox",
+      "properties": {
+        "lit": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "railcraft:solid_fueled_firebox",
+      "properties": {
+        "lit": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "railcraft:solid_fueled_firebox",
+      "properties": {
+        "lit": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        3,
+        1
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        3,
+        1
+      ],
+      "block": "railcraft:low_pressure_steam_boiler_tank",
+      "properties": {
+        "connection_type": "none"
+      }
+    }
+  ]
+}

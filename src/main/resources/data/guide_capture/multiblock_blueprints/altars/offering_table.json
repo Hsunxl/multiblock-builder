@@ -1,0 +1,310 @@
+{
+  "title": "献给诸神的供奉",
+  "size": [
+    9,
+    1,
+    9
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        1
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        2
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        3
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "naturesaura:offering_table",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        4
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        5
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        6
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        7
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        7,
+        0,
+        7
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        8
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        8
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        8
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        8
+      ],
+      "block": "minecraft:poppy"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        8
+      ],
+      "block": "minecraft:poppy"
+    }
+  ]
+}

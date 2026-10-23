@@ -1,0 +1,310 @@
+{
+  "title": "穿破狱界",
+  "size": [
+    7,
+    5,
+    7
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "neovitae:master_ritual_stone",
+      "properties": {
+        "facing": "north"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "neovitae:water_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        1
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        2
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        3
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        3
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        5,
+        4,
+        3
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        4
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        5
+      ],
+      "block": "neovitae:earth_ritual_stone"
+    }
+  ]
+}

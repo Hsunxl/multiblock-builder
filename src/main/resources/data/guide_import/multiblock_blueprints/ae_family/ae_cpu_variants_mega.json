@@ -1,0 +1,75 @@
+{
+  "title": "MEGA Cells · 合成 CPU",
+  "size": [
+    2,
+    2,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "megacells:1m_crafting_storage"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "megacells:mega_crafting_accelerator"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "megacells:mega_crafting_monitor"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "megacells:mega_crafting_unit"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "megacells:mega_crafting_unit"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "megacells:mega_crafting_unit"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "megacells:mega_crafting_unit"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "megacells:mega_crafting_unit"
+    }
+  ]
+}

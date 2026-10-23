@@ -1,0 +1,827 @@
+{
+  "title": "ME 控制器 · 7×7×7 棱框",
+  "size": [
+    7,
+    7,
+    7
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "block"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "block"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        1
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        5
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        5
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "block"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        6,
+        0,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "block"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        1,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        2,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        2,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        3,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        3,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        3,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        3,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        4,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        4,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        4,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        5,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        5,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        5,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        6,
+        5,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "block"
+      }
+    },
+    {
+      "pos": [
+        1,
+        6,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        2,
+        6,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        3,
+        6,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        4,
+        6,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        5,
+        6,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        0
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "block"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        1
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        1
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        2
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        2
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        3
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        3
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        4
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        4
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        5
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        5
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        6,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "block"
+      }
+    },
+    {
+      "pos": [
+        1,
+        6,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        2,
+        6,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        3,
+        6,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        4,
+        6,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        5,
+        6,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "column_x"
+      }
+    },
+    {
+      "pos": [
+        6,
+        6,
+        6
+      ],
+      "block": "ae2:controller",
+      "properties": {
+        "state": "offline",
+        "type": "block"
+      }
+    }
+  ]
+}

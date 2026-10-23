@@ -1,0 +1,393 @@
+{
+  "title": "合成系统 · L4 · 最小段",
+  "size": [
+    5,
+    3,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "neoecoae:crafting_parallel_core_l4",
+      "properties": {
+        "facing": "north",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "neoecoae:crafting_pattern_bus",
+      "properties": {
+        "facing": "south",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "neoecoae:output_hatch",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "neoecoae:crafting_worker",
+      "properties": {
+        "facing": "north",
+        "formed": "false",
+        "working": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        0
+      ],
+      "block": "neoecoae:crafting_system_l4",
+      "properties": {
+        "facing": "north",
+        "formed": "false",
+        "high_energy_network_switch": "false",
+        "mirrored": "false",
+        "network_switch": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "neoecoae:crafting_vent",
+      "properties": {
+        "facing": "south",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "block": "neoecoae:crafting_interface",
+      "properties": {
+        "formed": "false",
+        "storage_mode": "storage"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "neoecoae:crafting_parallel_core_l4",
+      "properties": {
+        "facing": "north",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        0
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "neoecoae:crafting_pattern_bus",
+      "properties": {
+        "facing": "south",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "block": "neoecoae:crafting_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "block": "neoecoae:input_hatch",
+      "properties": {
+        "formed": "false"
+      }
+    }
+  ]
+}

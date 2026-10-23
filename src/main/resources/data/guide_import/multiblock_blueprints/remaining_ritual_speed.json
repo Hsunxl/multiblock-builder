@@ -1,0 +1,131 @@
+{
+  "title": "速度仪式",
+  "size": [
+    5,
+    1,
+    5
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "neovitae:master_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "neovitae:tenebrae_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "neovitae:air_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "neovitae:fire_ritual_stone"
+    }
+  ]
+}

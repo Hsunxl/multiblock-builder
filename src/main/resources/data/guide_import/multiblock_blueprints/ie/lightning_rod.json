@@ -1,0 +1,267 @@
+{
+  "title": "避雷针基座",
+  "size": [
+    3,
+    3,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:coil_hv"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:coil_hv"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "immersiveengineering:coil_lv"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "immersiveengineering:coil_lv"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "immersiveengineering:coil_lv"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "immersiveengineering:coil_lv"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "immersiveengineering:coil_hv"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "immersiveengineering:coil_lv"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "immersiveengineering:coil_lv"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "immersiveengineering:coil_lv"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "immersiveengineering:coil_lv"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:treated_fence",
+      "properties": {
+        "east": "true",
+        "waterlogged": "false",
+        "south": "true",
+        "north": "false",
+        "west": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "immersiveengineering:treated_fence",
+      "properties": {
+        "east": "true",
+        "waterlogged": "false",
+        "south": "false",
+        "north": "true",
+        "west": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:treated_fence",
+      "properties": {
+        "east": "false",
+        "waterlogged": "false",
+        "south": "true",
+        "north": "false",
+        "west": "true"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "immersiveengineering:treated_fence",
+      "properties": {
+        "east": "false",
+        "waterlogged": "false",
+        "south": "false",
+        "north": "true",
+        "west": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:capacitor_hv"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:capacitor_hv"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "immersiveengineering:capacitor_hv"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:capacitor_hv"
+    }
+  ]
+}

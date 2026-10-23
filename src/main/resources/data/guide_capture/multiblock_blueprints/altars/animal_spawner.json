@@ -1,0 +1,355 @@
+{
+  "title": "诞生祭坛",
+  "size": [
+    7,
+    2,
+    7
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "naturesaura:ancient_planks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "naturesaura:ancient_planks"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        2
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        2
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        3
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "naturesaura:ancient_planks"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "naturesaura:ancient_planks"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        4
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        6,
+        0,
+        4
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        5
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        5
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        5
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        5
+      ],
+      "block": "naturesaura:infused_brick"
+    },
+    {
+      "pos": [
+        5,
+        0,
+        5
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        6
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        6
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        6
+      ],
+      "block": "minecraft:hay_block",
+      "properties": {
+        "axis": "y"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        3
+      ],
+      "block": "naturesaura:animal_spawner"
+    }
+  ]
+}

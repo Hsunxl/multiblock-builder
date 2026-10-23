@@ -1,0 +1,193 @@
+{
+  "title": "合成 CPU · 原生多布局示例",
+  "size": [
+    6,
+    3,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "ae2:16k_crafting_storage",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "ae2:16k_crafting_storage",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "ae2:16k_crafting_storage",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "ae2:16k_crafting_storage",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "ae2:1k_crafting_storage",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        1
+      ],
+      "block": "ae2:1k_crafting_storage",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "ae2:crafting_unit",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "ae2:crafting_accelerator",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "ae2:crafting_unit",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "ae2:crafting_accelerator",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "block": "ae2:crafting_accelerator",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "ae2:crafting_accelerator",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "ae2:crafting_accelerator",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "ae2:crafting_monitor",
+      "properties": {
+        "powered": "true",
+        "spin": "0",
+        "facing": "north",
+        "formed": "true"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "ae2:1k_crafting_storage",
+      "properties": {
+        "powered": "true",
+        "formed": "true"
+      }
+    }
+  ]
+}

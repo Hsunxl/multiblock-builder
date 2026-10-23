@@ -1,0 +1,141 @@
+{
+  "title": "附魔装置 · 奥术核心与八基座布置",
+  "size": [
+    5,
+    2,
+    5
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "ars_nouveau:arcane_pedestal",
+      "properties": {
+        "facing": "up",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "ars_nouveau:arcane_pedestal",
+      "properties": {
+        "facing": "up",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "ars_nouveau:arcane_pedestal",
+      "properties": {
+        "facing": "up",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "ars_nouveau:arcane_pedestal",
+      "properties": {
+        "facing": "up",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "ars_nouveau:arcane_core",
+      "properties": {
+        "facing": "up"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "ars_nouveau:source_jar",
+      "properties": {
+        "fill": "0",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "ars_nouveau:arcane_pedestal",
+      "properties": {
+        "facing": "up",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        4
+      ],
+      "block": "ars_nouveau:arcane_pedestal",
+      "properties": {
+        "facing": "up",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "ars_nouveau:arcane_pedestal",
+      "properties": {
+        "facing": "up",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        4
+      ],
+      "block": "ars_nouveau:arcane_pedestal",
+      "properties": {
+        "facing": "up",
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "ars_nouveau:enchanting_apparatus",
+      "properties": {
+        "facing": "up"
+      }
+    }
+  ]
+}

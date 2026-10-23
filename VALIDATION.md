@@ -1,5 +1,27 @@
 # Validation — 2026-10-20
 
+## 0.4.0 bundled structure library (2026-10-24)
+
+- The guide library now ships inside the mod: `data/guide_import/multiblock_blueprints`
+  (150 deduplicated static templates) and `data/guide_capture/multiblock_blueprints`
+  (235 deduplicated runtime-captured scenes) plus `data/multiblock_builder/multiblock_blueprints/demo_frame.json`.
+  Total **386** buildable blueprints in the jar (`multiblock-builder-0.4.0.jar`, 480 zip entries).
+- Source pack had 440 files; 55 were geometric duplicates across the two roots
+  (sha1 over size + block ids + block states), leaving 385 unique layouts.
+- 19 layouts that contain a block without a usable BlockItem stay `survival: false`
+  (18 Occultism chalk-glyph scenes + `oritech:unstable_container`); the other 366 are survival-buildable.
+- `ae_family/ae_plus_ultimate.json` keeps `formation: extendedae_plus:ultimate_super_assembler_matrix` (1,280 cells).
+- `gradlew build --offline` passed: 73,984 geometry cases, 154 real template imports, importer regression checks.
+- Isolated GameTest server: **15 / 15 required tests passed**. The new
+  `bundledBlueprintsShipInsideTheJar` test reads the live `ResourceManager`
+  (not the parsed catalog, because the isolated test server only has AE2 loaded):
+  386 bundled files present, 19 creative-only, well-formed `size`/`blocks`,
+  ultimate matrix ships with its formation field and 1,280 cells, demo frame loads.
+- Installed `multiblock-builder-0.4.0.jar` in `mods/` (0.3.4 moved out) and moved
+  the old world datapacks to `saves/ATM10/datapack-backups/` so the jar alone provides the library.
+- Not claimed: no in-game ATM10 client pass over all 386 rows yet; parsing depends on the
+  blocks of installed mods, so a blueprint whose blocks are absent is logged and skipped at load time.
+
 ## 0.3.4 catalog hover layer fix (2026-10-21)
 
 - User screenshots showed footer button labels rendering through the hover card.

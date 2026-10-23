@@ -1,0 +1,96 @@
+{
+  "title": "损坏的过载水晶母岩 · 普通雷击配方",
+  "size": [
+    3,
+    2,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "ae2:chipped_budding_quartz"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "ae2:quartz_block"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "ae2:quartz_block"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "ae2:quartz_block"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "ae2:quartz_block"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "ae2:fluix_block"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "ae2:fluix_block"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "ae2:fluix_block"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "ae2:fluix_block"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "minecraft:lightning_rod",
+      "properties": {
+        "waterlogged": "false",
+        "powered": "false",
+        "facing": "up"
+      }
+    }
+  ]
+}

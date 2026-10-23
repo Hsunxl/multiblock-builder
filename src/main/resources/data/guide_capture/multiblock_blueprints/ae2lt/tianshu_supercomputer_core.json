@@ -1,0 +1,308 @@
+{
+  "title": "天枢超算 · 核心示意",
+  "size": [
+    3,
+    3,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "ae2lt:tianshu_baseline_main_core",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "ae2lt:tianshu_blank_unit",
+      "properties": {
+        "formed": "false"
+      }
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "title": "超级装配矩阵 · 最小 3×3×3",
+  "size": [
+    3,
+    3,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "block"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_x"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "block"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_z"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_wall",
+      "properties": {
+        "formed": "false",
+        "powered": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "block"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_x"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "block"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_wall",
+      "properties": {
+        "formed": "false",
+        "powered": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_wall",
+      "properties": {
+        "formed": "false",
+        "powered": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "extendedae_plus:assembler_matrix_hybrid_plus",
+      "properties": {
+        "formed": "false",
+        "powered": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_wall",
+      "properties": {
+        "formed": "false",
+        "powered": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_y"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_wall",
+      "properties": {
+        "formed": "false",
+        "powered": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_y"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "block"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_x"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "block"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_z"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_wall",
+      "properties": {
+        "formed": "false",
+        "powered": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_z"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "block"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "column_x"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "extendedae_plus:super_assembler_matrix_frame",
+      "properties": {
+        "formed": "false",
+        "powered": "false",
+        "shape": "block"
+      }
+    }
+  ]
+}

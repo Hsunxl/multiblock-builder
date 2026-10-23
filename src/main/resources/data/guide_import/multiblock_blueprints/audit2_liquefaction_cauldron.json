@@ -1,0 +1,27 @@
+{
+  "title": "液化坩埚",
+  "size": [
+    3,
+    2,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "theurgy:liquefaction_cauldron"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "theurgy:pyromantic_brazier"
+    }
+  ]
+}

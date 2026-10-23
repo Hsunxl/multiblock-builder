@@ -1,0 +1,298 @@
+{
+  "title": "压力室 · 3×3×3",
+  "size": [
+    3,
+    3,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "pneumaticcraft:pressure_chamber_valve",
+      "properties": {
+        "facing": "north",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "pneumaticcraft:pressure_chamber_interface",
+      "properties": {
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "pneumaticcraft:pressure_chamber_interface",
+      "properties": {
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "pneumaticcraft:pressure_chamber_glass",
+      "properties": {
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "pneumaticcraft:pressure_chamber_wall",
+      "properties": {
+        "wall_state": "none"
+      }
+    }
+  ]
+}

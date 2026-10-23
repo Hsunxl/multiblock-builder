@@ -1,0 +1,194 @@
+{
+  "title": "自动化工程师装配台",
+  "size": [
+    3,
+    2,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "immersiveengineering:rs_engineering"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "immersiveengineering:light_engineering"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "immersiveengineering:steel_scaffolding_standard",
+      "properties": {
+        "waterlogged": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "immersiveengineering:slab_treated_wood_horizontal",
+      "properties": {
+        "waterlogged": "false",
+        "type": "bottom"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "immersiveengineering:slab_treated_wood_horizontal",
+      "properties": {
+        "waterlogged": "false",
+        "type": "bottom"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:conveyor_basic",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "immersiveengineering:conveyor_basic",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "south"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:conveyor_basic",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "east"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "immersiveengineering:conveyor_basic",
+      "properties": {
+        "waterlogged": "false",
+        "facing": "east"
+      }
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "title": "核反应堆",
+  "size": [
+    5,
+    5,
+    5
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        4,
+        0,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        0,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_reactor"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        4,
+        1,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        1,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        1,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        2,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        4,
+        2,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        2,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        2,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        2,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        3,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_alloy_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        4,
+        3,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        3,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        3,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        3,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        0
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        1
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        2
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        0,
+        4,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        4,
+        4,
+        3
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        1,
+        4,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        2,
+        4,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    },
+    {
+      "pos": [
+        3,
+        4,
+        4
+      ],
+      "block": "modern_industrialization:nuclear_casing"
+    }
+  ]
+}

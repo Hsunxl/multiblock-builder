@@ -1,0 +1,3235 @@
+{
+  "title": "电动农民 · 大型版本",
+  "size": [
+    21,
+    7,
+    21
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        9,
+        0,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        9,
+        0,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        10,
+        0,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        1,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        1,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        1,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        2,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        2,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        2,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        3,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        3,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        3,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        4,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        4,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        9,
+        4,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        10,
+        4,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        11,
+        4,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing_pipe"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        0
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        0
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        0
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        0
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        0
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        0
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        0
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        1
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        2
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        3
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        4
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        5
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        6
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        20,
+        5,
+        7
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        20,
+        5,
+        8
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        20,
+        5,
+        9
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        20,
+        5,
+        10
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        20,
+        5,
+        11
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        20,
+        5,
+        12
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        0,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        20,
+        5,
+        13
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        14
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        1,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        19,
+        5,
+        15
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        2,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        18,
+        5,
+        16
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        3,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        17,
+        5,
+        17
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        4,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        16,
+        5,
+        18
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        5,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        6,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        14,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        15,
+        5,
+        19
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        7,
+        5,
+        20
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        8,
+        5,
+        20
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        5,
+        20
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        10,
+        5,
+        20
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        11,
+        5,
+        20
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        12,
+        5,
+        20
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        13,
+        5,
+        20
+      ],
+      "block": "minecraft:dirt"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        9
+      ],
+      "block": "extended_industrialization:electric_farmer"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        9
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        10
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        9,
+        6,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        10,
+        6,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    },
+    {
+      "pos": [
+        11,
+        6,
+        11
+      ],
+      "block": "modern_industrialization:steel_machine_casing"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "title": "能量核心 T2 · 主体与稳定器",
+  "size": [
+    17,
+    3,
+    17
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        8,
+        0,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        0
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        7
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        8
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        7,
+        1,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        8
+      ],
+      "block": "draconicevolution:energy_core",
+      "properties": {
+        "active": "false"
+      }
+    },
+    {
+      "pos": [
+        9,
+        1,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        16,
+        1,
+        8
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        1,
+        9
+      ],
+      "block": "draconicevolution:draconium_block"
+    },
+    {
+      "pos": [
+        8,
+        1,
+        16
+      ],
+      "block": "draconicevolution:energy_core_stabilizer",
+      "properties": {
+        "large": "false"
+      }
+    },
+    {
+      "pos": [
+        8,
+        2,
+        8
+      ],
+      "block": "draconicevolution:draconium_block"
+    }
+  ]
+}

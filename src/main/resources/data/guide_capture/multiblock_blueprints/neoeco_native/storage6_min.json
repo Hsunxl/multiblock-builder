@@ -1,0 +1,400 @@
+{
+  "title": "存储系统 · L6 · 最小段",
+  "size": [
+    5,
+    3,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "neoecoae:eco_drive",
+      "properties": {
+        "facing": "north",
+        "formed": "false",
+        "has_cell": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "neoecoae:energy_cell_l6",
+      "properties": {
+        "facing": "south",
+        "formed": "false",
+        "level": "0"
+      }
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        0,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        0,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "neoecoae:eco_drive",
+      "properties": {
+        "facing": "north",
+        "formed": "false",
+        "has_cell": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        0
+      ],
+      "block": "neoecoae:storage_system_l6",
+      "properties": {
+        "facing": "north",
+        "formed": "false",
+        "mirrored": "false",
+        "storage_mode": "storage"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "neoecoae:storage_vent",
+      "properties": {
+        "facing": "south",
+        "formed": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        1,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        1,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        1,
+        1
+      ],
+      "block": "neoecoae:storage_interface",
+      "properties": {
+        "formed": "false",
+        "storage_mode": "storage"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        0
+      ],
+      "block": "neoecoae:eco_drive",
+      "properties": {
+        "facing": "north",
+        "formed": "false",
+        "has_cell": "false"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        0
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        0,
+        2,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        1,
+        2,
+        1
+      ],
+      "block": "neoecoae:energy_cell_l6",
+      "properties": {
+        "facing": "south",
+        "formed": "false",
+        "level": "0"
+      }
+    },
+    {
+      "pos": [
+        2,
+        2,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        3,
+        2,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    },
+    {
+      "pos": [
+        4,
+        2,
+        1
+      ],
+      "block": "neoecoae:storage_casing",
+      "properties": {
+        "classic_visible": "false",
+        "formed": "false",
+        "invisible": "false"
+      }
+    }
+  ]
+}

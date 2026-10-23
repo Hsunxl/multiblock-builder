@@ -1,0 +1,83 @@
+{
+  "title": "生命祭坛 · 第 2 阶完整必需结构",
+  "size": [
+    3,
+    2,
+    3
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "neovitae:ara_vitae"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        1
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        2
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        2
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        0
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        2
+      ],
+      "block": "neovitae:rune_blank"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "neovitae:rune_blank"
+    }
+  ]
+}

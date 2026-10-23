@@ -1,0 +1,62 @@
+{
+  "title": "重构阵列",
+  "size": [
+    13,
+    1,
+    7
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        8,
+        0,
+        1
+      ],
+      "block": "theurgy:reformation_source_pedestal"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        3
+      ],
+      "block": "theurgy:mercury_catalyst"
+    },
+    {
+      "pos": [
+        2,
+        0,
+        3
+      ],
+      "block": "theurgy:sulfuric_flux_emitter",
+      "properties": {
+        "facing": "south"
+      }
+    },
+    {
+      "pos": [
+        5,
+        0,
+        3
+      ],
+      "block": "theurgy:reformation_target_pedestal"
+    },
+    {
+      "pos": [
+        11,
+        0,
+        3
+      ],
+      "block": "theurgy:reformation_result_pedestal"
+    },
+    {
+      "pos": [
+        8,
+        0,
+        5
+      ],
+      "block": "theurgy:reformation_source_pedestal"
+    }
+  ]
+}

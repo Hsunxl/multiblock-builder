@@ -1,0 +1,75 @@
+{
+  "title": "OMNI Cells · 量子全能合成 CPU",
+  "size": [
+    2,
+    2,
+    2
+  ],
+  "survival": true,
+  "blocks": [
+    {
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "block": "ae2omnicells:quantum_crafting_storage_1k_block"
+    },
+    {
+      "pos": [
+        0,
+        0,
+        1
+      ],
+      "block": "ae2:crafting_accelerator"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        0
+      ],
+      "block": "ae2omnicells:quantum_crafting_monitor_block"
+    },
+    {
+      "pos": [
+        0,
+        1,
+        1
+      ],
+      "block": "ae2omnicells:quantum_crafting_unit_block"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        0
+      ],
+      "block": "ae2omnicells:quantum_crafting_unit_block"
+    },
+    {
+      "pos": [
+        1,
+        0,
+        1
+      ],
+      "block": "ae2omnicells:quantum_crafting_unit_block"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        0
+      ],
+      "block": "ae2omnicells:quantum_crafting_unit_block"
+    },
+    {
+      "pos": [
+        1,
+        1,
+        1
+      ],
+      "block": "ae2omnicells:quantum_crafting_unit_block"
+    }
+  ]
+}
