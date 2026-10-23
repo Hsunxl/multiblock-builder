@@ -100,6 +100,104 @@ public final class BuilderGameTests {
             """).getAsJsonObject()); } catch(IllegalArgumentException ex) { rejected=true; }
         h.assertTrue(rejected,"Multi-cell item mapping must require review/creative"); h.succeed();
     }
+    @GameTest(template="empty") public static void previewIncludesAllSixSides(GameTestHelper h) {
+        var json=new com.google.gson.JsonObject();
+        json.add("size",JsonParser.parseString("[3,3,3]")); json.addProperty("survival",true);
+        var blocks=new com.google.gson.JsonArray();
+        for(int x=0;x<3;x++) for(int y=0;y<3;y++) for(int z=0;z<3;z++) {
+            var cell=new com.google.gson.JsonObject();
+            cell.add("pos",JsonParser.parseString("["+x+","+y+","+z+"]"));
+            cell.addProperty("block","minecraft:stone"); blocks.add(cell);
+        }
+        json.add("blocks",blocks);
+        var scene=Network.createScene(Blueprint.parse(ResourceLocation.parse("test:shell"),json));
+        var positions=new java.util.HashSet<BlockPos>();
+        for(int i=0;i<scene.cells().length;i+=4) positions.add(new BlockPos(
+                scene.cells()[i]&255,scene.cells()[i+1]&255,scene.cells()[i+2]&255));
+        h.assertTrue(positions.size()==26,"Solid 3x3x3 must send all 26 shell cells, not just positive sides");
+        for(int x=0;x<3;x++) for(int y=0;y<3;y++) for(int z=0;z<3;z++)
+            h.assertTrue(positions.contains(new BlockPos(x,y,z))!=(x==1&&y==1&&z==1),"Shell membership");
+        h.succeed();
+    }
+    @GameTest(template="empty") public static void inventoryPartialLayout(GameTestHelper h) {
+        var p=player(h); var at=anchor(h);
+        h.setBlock(1,2,1,Blocks.STONE);
+        p.getInventory().setItem(9,new ItemStack(Items.STONE,1));
+        p.getInventory().setItem(35,new ItemStack(Items.STONE,1));
+        h.assertTrue(Placement.build(p,p.getMainHandItem(),blueprint(),at,0),"Partial layout succeeds");
+        h.assertTrue(p.getInventory().countItem(Items.STONE)==1,"Only missing block charged across main inventory");
+        h.assertBlockPresent(Blocks.STONE,2,2,1); h.succeed();
+    }
+    @GameTest(template="empty") public static void inventoryReadsSplitStacks(GameTestHelper h) {
+        var p=player(h); var at=anchor(h);
+        p.getInventory().setItem(9,new ItemStack(Items.STONE,1));
+        p.getInventory().setItem(35,new ItemStack(Items.STONE,1));
+        h.assertTrue(Placement.build(p,p.getMainHandItem(),blueprint(),at,0),"Split main-inventory stacks build");
+        h.assertTrue(p.getInventory().countItem(Items.STONE)==0,"Both stacks charged exactly");
+        h.assertBlockPresent(Blocks.STONE,1,2,1); h.assertBlockPresent(Blocks.STONE,2,2,1); h.succeed();
+    }
+    @GameTest(template="empty") public static void customizedInventoryItemsArePreserved(GameTestHelper h) {
+        var p=player(h); var at=anchor(h); var named=new ItemStack(Items.STONE,8);
+        named.set(net.minecraft.core.component.DataComponents.CUSTOM_NAME,Component.literal("Keep me"));
+        p.getInventory().setItem(1,named);
+        h.assertTrue(!Placement.build(p,p.getMainHandItem(),blueprint(),at,0),"Customized items are not ordinary building materials");
+        h.assertTrue(named.getCount()==8,"Customized stack preserved");
+        h.assertBlockPresent(Blocks.AIR,1,2,1); h.succeed();
+    }
+    @GameTest(template="empty") public static void missingBoundInterfaceNeverFallsBack(GameTestHelper h) {
+        var p=player(h); var at=anchor(h);
+        p.getInventory().setItem(1,new ItemStack(Items.STONE,8));
+        Selection.bindInterface(p.getMainHandItem(),p.level().dimension(),at.above(2));
+        h.assertTrue(!Placement.build(p,p.getMainHandItem(),blueprint(),at,0),"Missing interface fails safely");
+        h.assertTrue(p.getInventory().countItem(Items.STONE)==8,"No silent inventory fallback");
+        h.assertBlockPresent(Blocks.AIR,1,2,1); h.succeed();
+    }
+    @GameTest(template="empty",timeoutTicks=200) public static void realMeGridBuildsAndChargesOnce(GameTestHelper h) {
+        realMeBuild(h,"success");
+    }
+    @GameTest(template="empty",timeoutTicks=200) public static void realMeShortageDoesNotUseBackpack(GameTestHelper h) {
+        realMeBuild(h,"shortage");
+    }
+    @GameTest(template="empty",timeoutTicks=200) public static void realMeProtectionPreservesStorage(GameTestHelper h) {
+        realMeBuild(h,"protection");
+    }
+    private static void realMeBuild(GameTestHelper h,String scenario) {
+        var p=player(h); var at=anchor(h); var tool=p.getMainHandItem();
+        h.setBlock(1,1,3,appeng.core.definitions.AEBlocks.INTERFACE.block());
+        h.setBlock(2,1,3,appeng.core.definitions.AEBlocks.DRIVE.block());
+        h.setBlock(3,1,3,appeng.core.definitions.AEBlocks.CREATIVE_ENERGY_CELL.block());
+        var iface=(appeng.blockentity.misc.InterfaceBlockEntity)h.getBlockEntity(new BlockPos(1,1,3));
+        var drive=(appeng.blockentity.storage.DriveBlockEntity)h.getBlockEntity(new BlockPos(2,1,3));
+        drive.getInternalInventory().setItemDirect(0,appeng.core.definitions.AEItems.ITEM_CELL_1K.stack());
+        Selection.bindInterface(tool,p.level().dimension(),h.absolutePos(new BlockPos(1,1,3)));
+        p.getInventory().setItem(1,new ItemStack(Items.STONE,8));
+        h.runAfterDelay(80,()->{
+            h.assertTrue(iface.getMainNode().isActive(),"Real interface must be powered and channeled");
+            var grid=iface.getMainNode().getGrid();
+            h.assertTrue(grid==drive.getMainNode().getGrid(),"Interface and drive share real grid");
+            var storage=grid.getStorageService().getInventory();
+            var action=new appeng.me.helpers.PlayerSource(p); var key=AEItemKey.of(Items.STONE);
+            int initial=scenario.equals("shortage")?1:5;
+            h.assertTrue(storage.insert(key,initial,Actionable.MODULATE,action)==initial,"Insert into real 1K cell");
+            h.assertTrue(Materials.resolve(p,tool) instanceof MeSource,"Bound source must resolve to ME");
+            Consumer<BlockEvent.EntityPlaceEvent> cancel=e->{if(e.getEntity()==p) e.setCanceled(true);};
+            boolean protect=scenario.equals("protection");
+            if(protect) NeoForge.EVENT_BUS.addListener(cancel);
+            try {
+                boolean success=scenario.equals("success");
+                h.assertTrue(Placement.build(p,tool,blueprint(),at,0)==success,"Build outcome: "+scenario);
+                h.assertTrue(storage.extract(key,100,Actionable.SIMULATE,action)==(success?3:initial),"Exact ME charge or preservation");
+                h.assertTrue(p.getInventory().countItem(Items.STONE)==8,"Backpack untouched while bound to ME");
+                h.assertBlockPresent(success?Blocks.STONE:Blocks.AIR,1,2,1);
+                h.assertBlockPresent(success?Blocks.STONE:Blocks.AIR,2,2,1);
+                if(success) {
+                    h.assertTrue(Placement.build(p,tool,blueprint(),at,0),"Repeated ME build succeeds");
+                    h.assertTrue(storage.extract(key,100,Actionable.SIMULATE,action)==3,"No double ME charge");
+                }
+            } finally { if(protect) NeoForge.EVENT_BUS.unregister(cancel); }
+            h.succeed();
+        });
+    }
     private static final class FakeStorage implements MEStorage {
         private final java.util.Map<AEKey,Long> values=new LinkedHashMap<>();
         void put(Item item,long amount) { values.put(AEItemKey.of(item),amount); }

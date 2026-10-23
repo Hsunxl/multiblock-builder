@@ -90,6 +90,9 @@ public final class Network {
     }
     /** Sends only the exposed shell, so even a 5,832-block matrix stays tiny. */
     public static void previewScene(ServerPlayer p,Blueprint b) {
+        PacketDistributor.sendToPlayer(p,createScene(b));
+    }
+    static Scene createScene(Blueprint b) {
         int w=b.width(),h=b.height(),d=b.depth();
         var occupied=new BitSet((w+2)*(h+2)*(d+2));
         for(var cell:b.cells()) {
@@ -105,6 +108,10 @@ public final class Network {
             if(!occupied.get(index(x,y+1,z,w,d))) faces|=1;
             if(!occupied.get(index(x+1,y,z,w,d))) faces|=2;
             if(!occupied.get(index(x,y,z+1,w,d))) faces|=4;
+            // The turntable can see every side, not just the initial isometric view.
+            if(!occupied.get(index(x,y-1,z,w,d))) faces|=8;
+            if(!occupied.get(index(x-1,y,z,w,d))) faces|=16;
+            if(!occupied.get(index(x,y,z-1,w,d))) faces|=32;
             if(faces==0) continue;
             var blockId=BuiltInRegistries.BLOCK.getKey(cell.state().getBlock());
             Integer slot=paletteIndex.get(blockId);
@@ -115,8 +122,7 @@ public final class Network {
             out.write(x); out.write(y); out.write(z); out.write(slot);
         }
         if(palette.isEmpty()) palette.add("minecraft:stone");
-        var scene=new Scene(b.id().toString(),w,h,d,palette.toArray(String[]::new),out.toByteArray());
-        PacketDistributor.sendToPlayer(p,scene);
+        return new Scene(b.id().toString(),w,h,d,palette.toArray(String[]::new),out.toByteArray());
     }
     private static int index(int x,int y,int z,int width,int depth) {
         return ((y+1)*(depth+2)+(z+1))*(width+2)+(x+1);

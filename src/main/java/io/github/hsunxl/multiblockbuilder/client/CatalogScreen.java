@@ -18,6 +18,8 @@ public final class CatalogScreen extends Screen {
     private static final int ROW_HEIGHT = 40;
     private static final int ROW_GAP = 6;
     private static final int PANEL_MAX = 620;
+    // Vanilla widgets and item icons draw above z=0, regardless of call order.
+    private static final int HOVER_CARD_Z = 400;
 
     private record Entry(String id,String title,boolean survival,boolean formation,
                          int width,int height,int depth,int cells,ItemStack icon,String category) {}
@@ -178,7 +180,20 @@ public final class CatalogScreen extends Screen {
         x = Math.max(4,Math.min(x,width - cardWidth - 4));
         y = Math.max(4,Math.min(y,height - cardHeight - 4));
 
-        graphics.fill(x,y,x + cardWidth,y + cardHeight,0xFA0C1218);
+        // Finish the underlying widgets before entering an isolated tooltip layer.
+        graphics.flush();
+        graphics.pose().pushPose();
+        try {
+            graphics.pose().translate(0,0,HOVER_CARD_Z);
+            drawHoverCard(graphics,entry,x,y,cardWidth,cardHeight);
+        } finally {
+            graphics.flush();
+            graphics.pose().popPose();
+        }
+    }
+
+    private void drawHoverCard(GuiGraphics graphics,Entry entry,int x,int y,int cardWidth,int cardHeight) {
+        graphics.fill(x,y,x + cardWidth,y + cardHeight,0xFF0C1218);
         graphics.fill(x,y,x + cardWidth,y + 2,0xFF55D6FF);
         graphics.fill(x,y + cardHeight - 1,x + cardWidth,y + cardHeight,0xFF2B3A45);
         graphics.fill(x,y,x + 1,y + cardHeight,0xFF2B3A45);
@@ -187,6 +202,8 @@ public final class CatalogScreen extends Screen {
         int previewX = x + 10, previewY = y + 10, previewW = cardWidth - 20, previewH = 110;
         graphics.fill(previewX,previewY,previewX + previewW,previewY + previewH,0xFF070C10);
         graphics.fill(previewX,previewY,previewX + previewW,previewY + 1,0x33FFFFFF);
+        // The voxel texture uses a different render type; submit its backdrop first.
+        graphics.flush();
         VoxelPreview preview = BuilderClient.thumbnail(entry.id);
         if (preview != null) {
             preview.render(graphics,previewX,previewY,previewW,previewH);
