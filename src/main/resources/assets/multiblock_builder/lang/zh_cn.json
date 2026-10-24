@@ -12,7 +12,7 @@
   "multiblock_builder.preview.loading": "正在生成 3D 预览…",
   "multiblock_builder.card.series": "系列：%s",
   "multiblock_builder.card.hint": "左键选择 · 悬停查看 3D 预览",
-  "multiblock_builder.card.creative_hint": "仅创造模式：材料映射未审核",
+  "multiblock_builder.card.creative_hint": "仅创造模式：含无物品形态的方块，生存无法扣料",
   "multiblock_builder.selected": "已选：%s（%s×%s×%s · %s 方块）",
   "multiblock_builder.selected.unknown": "已选择蓝图（重新选择可刷新信息）",
   "multiblock_builder.error.gamemode": "当前游戏模式不能搭建。",

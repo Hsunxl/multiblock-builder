@@ -4,7 +4,7 @@ Minecraft **1.21.1 / NeoForge 21.1.169+ / Java 21**。独立工具模组；客�
 
 从 ExtendedAE Plus 的终极矩阵搭建器借鉴“选点、锁定预览、确认搭建”交互，并适配其 ME 接口取料流程；本模组是通用、数据驱动的独立实现，不复制原模组源码或材质。
 
-## 当前功能（0.4.1）
+## 当前功能（0.4.2）
 
 - **图鉴结构库已内置**：JAR 自带 385 个去重蓝图（`data/guide_import` 150 + `data/guide_capture` 235），加上示例 `demo_frame` 共 386 个可搭建结构。装上模组即可直接搜索、预览、搭建，不再需要世界数据包、`/mbuilder import` 或 `/mbuilder-capture`。
 - 内置库默认 `survival: true`；只有 19 个含无 BlockItem 方块的布局（18 个 Occultism 粉笔符文场景 + `oritech:unstable_container`）保持 `survival: false`，只能创造搭建。

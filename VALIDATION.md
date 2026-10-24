@@ -1,5 +1,16 @@
 # Validation — 2026-10-20
 
+## 0.4.2 hover-card creative hint wording (2026-10-24)
+
+- The hover card's creative-only hint still carried the 0.4.0 wording ("material mapping not approved"),
+  which was the exact string the user complained about. Both language files now state the real cause:
+  `仅创造模式：含无物品形态的方块，生存无法扣料` / `Creative only: has blocks with no item form`,
+  matching the refusal message and the list badge.
+- `gradlew build --offline` passed: 73,984 geometry cases, 154 real template imports, importer regression.
+- Isolated GameTest server: **17 / 17 required tests passed**.
+- Verified both `zh_cn.json` / `en_us.json` parse as JSON with 81 keys each, and the packaged 0.4.2 jar
+  carries the new strings plus all 386 blueprints.
+
 ## 0.4.1 localized categories and survival proof (2026-10-24)
 
 - Catalog UI no longer prints raw category slugs: all 33 categories have `multiblock_builder.category.*`

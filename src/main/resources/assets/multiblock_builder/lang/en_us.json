@@ -12,7 +12,7 @@
   "multiblock_builder.preview.loading": "Building 3D preview…",
   "multiblock_builder.card.series": "Series: %s",
   "multiblock_builder.card.hint": "Left click to select · hover for a 3D preview",
-  "multiblock_builder.card.creative_hint": "Creative only: material mapping not approved",
+  "multiblock_builder.card.creative_hint": "Creative only: has blocks with no item form",
   "multiblock_builder.selected": "Selected: %s (%s×%s×%s · %s blocks)",
   "multiblock_builder.selected.unknown": "Blueprint selected (reselect to refresh details)",
   "multiblock_builder.error.gamemode": "Building is not allowed in this game mode.",
