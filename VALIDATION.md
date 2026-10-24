@@ -1,5 +1,25 @@
 # Validation — 2026-10-20
 
+## 0.4.1 localized categories and survival proof (2026-10-24)
+
+- Catalog UI no longer prints raw category slugs: all 33 categories have `multiblock_builder.category.*`
+  translations (81 language keys per file) and both the hover card and the row meta go through
+  `CatalogScreen.categoryLabel`, which falls back to the slug only for an unknown category.
+- The creative-only refusal is reworded to state the real cause (blocks with no item form) instead of
+  claiming an unapproved material mapping, and it points at the 367 survival-buildable layouts.
+- `CatalogScreen.filtered()` matches the localized category name plus the localized survival/creative
+  badge, so typing 生存 lists only survival layouts.
+- `gradlew build --offline` passed: 73,984 geometry cases, 154 real template imports, importer regression.
+- Isolated GameTest server: **17 / 17 required tests passed**, including two new survival tests:
+  `bundledSurvivalBlueprintBuildsInSurvival` builds `guide_import:ae_family/ae_controllers_ring`
+  as a non-creative player, charges exactly 8 ME controllers and leaves the centre air;
+  `creativeOnlyBlueprintRefusedInSurvival` proves a `survival:false` layout is refused by `Placement.plan`
+  with a translated message (no raw key, no legacy English) and zero materials charged.
+- Note: blueprint ids in the catalog drop the `multiblock_blueprints` segment, e.g.
+  `guide_import:ae_family/ae_controllers_ring`, because `SimpleJsonResourceReloadListener` strips it.
+- Not claimed: no full in-game ATM10 client pass over all 386 rows; parsing depends on the blocks of
+  installed mods, so a blueprint whose blocks are absent is logged and skipped at load time.
+
 ## 0.4.0 bundled structure library (2026-10-24)
 
 - The guide library now ships inside the mod: `data/guide_import/multiblock_blueprints`
