@@ -64,6 +64,13 @@ public final class CatalogScreen extends Screen {
         }
     }
 
+    /** Shows a readable series name instead of a raw data-path slug when one is translated. */
+    private String categoryLabel(String category) {
+        String key = "multiblock_builder.category." + category;
+        var language = net.minecraft.locale.Language.getInstance();
+        return language.has(key) ? Component.translatable(key).getString() : category;
+    }
+
     private int pageSize() {
         return Math.max(1,(listBottom - listTop) / (ROW_HEIGHT + ROW_GAP));
     }
@@ -71,8 +78,13 @@ public final class CatalogScreen extends Screen {
     private List<Entry> filtered() {
         String q = query.toLowerCase(Locale.ROOT).trim();
         if (q.isEmpty()) return entries;
-        return entries.stream().filter(e -> (e.title + " " + e.id + " " + e.category)
-                .toLowerCase(Locale.ROOT).contains(q)).toList();
+        String survivalWord = Component.translatable("multiblock_builder.badge.survival").getString().toLowerCase(Locale.ROOT);
+        String creativeWord = Component.translatable("multiblock_builder.badge.creative").getString().toLowerCase(Locale.ROOT);
+        return entries.stream().filter(e -> {
+            String haystack = e.title + " " + e.id + " " + e.category + " " + categoryLabel(e.category)
+                    + " " + (e.survival ? survivalWord : creativeWord);
+            return haystack.toLowerCase(Locale.ROOT).contains(q);
+        }).toList();
     }
 
     @Override protected void init() {
@@ -230,7 +242,7 @@ public final class CatalogScreen extends Screen {
         graphics.drawString(font,badge,x + cardWidth - badgeWidth - 5,y + 141,
                 entry.survival ? 0xFF7CF0D2 : 0xFFFFD18A,false);
 
-        String series = Component.translatable("multiblock_builder.card.series",entry.category).getString();
+        String series = Component.translatable("multiblock_builder.card.series",categoryLabel(entry.category)).getString();
         if (entry.formation) series += " · " + Component.translatable("multiblock_builder.badge.auto").getString();
         graphics.drawString(font,font.plainSubstrByWidth(series,cardWidth - 20),
                 textX,y + 156,0xFF7E929E,false);
@@ -277,7 +289,7 @@ public final class CatalogScreen extends Screen {
             graphics.drawString(font,font.plainSubstrByWidth(entry.title,titleWidth),
                     x + 36,y + 7,0xFFF2F6FA,false);
 
-            String meta = entry.category + " · " + entry.width + "×" + entry.height + "×" + entry.depth
+            String meta = categoryLabel(entry.category) + " · " + entry.width + "×" + entry.height + "×" + entry.depth
                     + " · " + entry.cells + " " + Component.translatable("multiblock_builder.blocks").getString();
             if (entry.formation) meta += " · " + Component.translatable("multiblock_builder.badge.auto").getString();
             graphics.drawString(font,font.plainSubstrByWidth(meta,Math.max(20,badgeX - (x + 36) - 4)),

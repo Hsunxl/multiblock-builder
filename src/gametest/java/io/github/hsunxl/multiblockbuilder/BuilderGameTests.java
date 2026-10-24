@@ -91,6 +91,56 @@ public final class BuilderGameTests {
         h.assertTrue(storage.amount(Items.STONE)==2&&storage.amount(Items.DIRT)==1,"partial extraction rolled back");
         h.succeed();
     }
+    /**
+     * End-to-end proof that survival mode can really build a bundled blueprint: a plain (non-creative)
+     * player places {@code guide_import:.../ae_controllers_ring} and pays exactly its eight controllers
+     * from the main inventory. This is the case the old 0.3.x build refused with
+     * "This blueprint is creative-only".
+     */
+    @GameTest(template="empty") public static void bundledSurvivalBlueprintBuildsInSurvival(GameTestHelper h) {
+        var blueprint=Blueprints.INSTANCE.get("guide_import:ae_family/ae_controllers_ring");
+        h.assertTrue(blueprint!=null,"Bundled AE controller ring must load on a server that only has AE2");
+        h.assertTrue(blueprint.survival(),"Bundled AE controller ring must be survival-buildable");
+        h.assertTrue(blueprint.cells().size()==8,"AE controller ring keeps its eight cells");
+        var p=player(h); var at=anchor(h);
+        var controller=appeng.core.definitions.AEBlocks.CONTROLLER.block().asItem();
+        p.getInventory().setItem(1,new ItemStack(controller,8));
+        h.assertTrue(Placement.build(p,p.getMainHandItem(),blueprint,at,0),"Survival build of a bundled blueprint must succeed");
+        h.assertTrue(p.getInventory().countItem(controller)==0,"Exactly eight controllers charged");
+        var placed=appeng.core.definitions.AEBlocks.CONTROLLER.block();
+        h.assertBlockPresent(placed,1,2,1);
+        h.assertBlockPresent(placed,3,2,3);
+        h.assertBlockPresent(Blocks.AIR,2,2,2);
+        h.succeed();
+    }
+
+    /** A creative-only layout must be refused for a survival player and must not charge anything. */
+    @GameTest(template="empty") public static void creativeOnlyBlueprintRefusedInSurvival(GameTestHelper h) {
+        var creativeOnly=Blueprint.parse(ResourceLocation.parse("test:creative"),
+                JsonParser.parseString("""
+                    {"size":[2,1,1],"survival":false,"blocks":[
+                    {"pos":[0,0,0],"block":"minecraft:stone"},
+                    {"pos":[1,0,0],"block":"minecraft:stone"}]}
+                    """).getAsJsonObject());
+        var p=player(h); var at=anchor(h);
+        p.getInventory().setItem(1,new ItemStack(Items.STONE,4));
+        // plan() is the gate that refuses creative-only layouts for players without instabuild.
+        boolean refused=false;
+        try { Placement.plan(p,creativeOnly,at,0); }
+        catch (Placement.BuildError error) {
+            refused=true;
+            String key="multiblock_builder.error.creative_only";
+            h.assertTrue(!error.text().getString().equals(key),"Refusal must be a translated message, not a raw key");
+            h.assertTrue(!error.text().getString().contains("creative-only"),"Old raw English text must be gone");
+        }
+        h.assertTrue(refused,"Creative-only layout must be refused for a survival player");
+        h.assertTrue(!Placement.build(p,p.getMainHandItem(),creativeOnly,at,0),"Build must report failure");
+        h.assertTrue(p.getInventory().countItem(Items.STONE)==4,"No materials charged on refusal");
+        h.assertBlockPresent(Blocks.AIR,1,2,1);
+        h.assertBlockPresent(Blocks.AIR,2,2,1);
+        h.succeed();
+    }
+
     @GameTest(template="empty") public static void invalidBlueprintRejected(GameTestHelper h) {
         h.assertTrue(Blueprints.INSTANCE.get("")==null,"Empty tool selection must be safe");
         h.assertTrue(Blueprints.INSTANCE.get("multiblock_builder:demo_frame")!=null,"Data pack reload must discover bundled blueprint");
